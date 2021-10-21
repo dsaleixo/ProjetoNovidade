@@ -11,6 +11,7 @@ import MentalSeal.MentalSeal;
 import ai.RandomBiasedAI;
 import ai.Rojo;
 import ai.UMSBot;
+import ai.mayari;
 import ai.UTS_Imass_2019.UTS_Imass;
 import ai.abstraction.RangedRush;
 import ai.abstraction.partialobservability.POLightRush;
@@ -22,6 +23,7 @@ import ai.core.AI;
 import ai.evaluation.SimpleSqrtEvaluationFunction3;
 import ai.mcts.naivemcts.NaiveMCTS;
 import gui.PhysicalGameStatePanel;
+
 import rts.GameState;
 import rts.PhysicalGameState;
 import rts.PlayerAction;
@@ -50,6 +52,7 @@ public class Campeonato {
 		}
 		if(s.equals("8")) return new CoacAI(utt);
 		if(s.equals("9")) return new UTS_Imass(utt);
+		if(s.equals("10")) return new mayari(utt);
 		return null;
 	}
 	
@@ -182,17 +185,17 @@ public class Campeonato {
             
                 if(exibe) {
                 	w.repaint();
-                	Thread.sleep(2);
+                	Thread.sleep(5);
                 }
                 
                 gameover = gs2.cycle();
                
                 
 
-        } while (!gameover && (gs2.getTime() < 10000));
+        } while (!gameover && (gs2.getTime() < max_cycle));
 		
-        if (gs.winner()==player)return 1.0;
-        if (gs.winner()==-1)return 0.5;
+        if (gs2.winner()==player)return 1.0;
+        if (gs2.winner()==-1)return 0.5;
         return 0;
     
 	}
@@ -200,15 +203,17 @@ public class Campeonato {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		UnitTypeTable utt = new UnitTypeTable();
+		/*
 		int lado =0;
-		String path_map = getMap("3");
+		String path_map = getMap("7");
 		PhysicalGameState pgs = PhysicalGameState.load(path_map, utt);
 		GameState gs = new GameState(pgs, utt);
 	
+		
 		Node n = getScript("3",lado,utt);
-		 AI ai1  = new Interpreter(utt,n); 
-		 
-		AI ai2= getAdv(gs,"8" ,utt);
+		// AI ai1  = new Interpreter(utt,n); 
+		AI ai1 =getAdv(gs,"8" ,utt);
+		AI ai2= getAdv(gs,"10" ,utt);
 		 
 		
 		
@@ -216,6 +221,28 @@ public class Campeonato {
 		
 		n.clear(null, new FactoryLS());
 		System.out.println(n.translateIndentation(0));
+		*/
+		
+		
+		for(int i=3;i<4;i++) {
+			String path_map = getMap(""+i);
+			PhysicalGameState pgs = PhysicalGameState.load(path_map, utt);
+			GameState gs = new GameState(pgs, utt);
+			double r=0;
+			for(int j=0;j<1;j++) {
+				AI ai1 =getAdv(gs,"8" ,utt);
+				AI ai2= getAdv(gs,"10" ,utt);
+				r+=partida(gs,utt,0,16000,ai1,ai2,true);
+			}
+			for(int j=0;j<1;j++) {
+				AI ai1 =getAdv(gs,"8" ,utt);
+				AI ai2= getAdv(gs,"10" ,utt);
+				r+=partida(gs,utt,1,16000,ai1,ai2,true);
+				
+				
+			}
+			System.out.println(path_map+" "+r);
+		}
 		
 		
 	}

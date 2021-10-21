@@ -12,19 +12,17 @@ import util.Pair;
 
 public class SimplePlayout implements Playout {
 	
-	public EvaluateGS eval;
+
 	public SimplePlayout() {
 		// TODO Auto-generated constructor stub
-		this.eval = new Cego();
+		
 	}
-	public SimplePlayout(EvaluateGS eval) {
-		// TODO Auto-generated constructor stub
-		this.eval = eval;
-	}
+
+	
 	@Override
-	public Pair<Double, Double> run(GameState gs, int player, int max_cycle, AI ai1, AI ai2, boolean exibe) throws Exception {
+	public Pair<Double, CabocoDagua2> run(GameState gs, int player, int max_cycle, AI ai1, AI ai2, boolean exibe) throws Exception {
 		// TODO Auto-generated method stub
-		eval.Resert();
+		CabocoDagua2 eval = new CabocoDagua2();;
 		UnitTypeTable utt = new UnitTypeTable();
 		ai1.reset(utt);
 		ai2.reset(utt);
@@ -66,11 +64,11 @@ public class SimplePlayout implements Playout {
         } while (!gameover && (gs2.getTime() <= max_cycle)); 
     
         double r=0;
-        if(itbroke) return new Pair<>(0.0,0.0);
+        if(itbroke) return new Pair<>(-1.0,null);
         else if(gs2.winner()==player)r= 1;
 		else if (gs2.winner()==-1)r= 0.5;
-        double r2 = eval.getValue();
-        return new Pair<>(r,r2);
+       
+        return new Pair<>(r,eval);
         
 	}
 

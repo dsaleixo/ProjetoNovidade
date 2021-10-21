@@ -2,7 +2,7 @@ package EvaluateGameState;
 
 import java.util.List;
 
-import Oraculo.EstadoAcoes;
+
 import rts.GameState;
 import rts.PlayerAction;
 import rts.UnitAction;
@@ -11,7 +11,7 @@ import util.Pair;
 
 public class CabocoDagua2 implements EvaluateGS {
 
-	int worker;
+	public int worker;
 	int light;
 	int ranged;
 	int heavy;
@@ -19,7 +19,7 @@ public class CabocoDagua2 implements EvaluateGS {
 	int barrack;
 	int saved_resource;
 	
-	CabocoDagua2 oraculo;
+	
 	
 	public CabocoDagua2() {
 		this.worker=0;
@@ -32,28 +32,7 @@ public class CabocoDagua2 implements EvaluateGS {
 	}
 	
 	
-	public CabocoDagua2(EstadoAcoes EAs,int play) {
-		// TODO Auto-generated constructor stub
-		this.worker=0;
-		this.light=0;
-		this.ranged=0;
-		this.heavy=0;
-		this.base=0;
-		this.barrack=0;
-		this.saved_resource=0;
-		
-		List<PlayerAction> pas=null;
-		if(play==0) {
-			pas = EAs.pa0s;
-		}else {
-			pas = EAs.pa1s;
-		}
-		this.oraculo = new CabocoDagua2();
-		for(PlayerAction pa : pas) {
-			this.oraculo.evaluate(pa, play);
-		}
-		this.oraculo.imprimir();
-	}
+	
 	
 	public void imprimir() {
 		System.out.println("Worker "+ this.worker);
@@ -103,21 +82,7 @@ public class CabocoDagua2 implements EvaluateGS {
 		return delta /Math.max(a,b);
 	}
 	
-	@Override
-	public double getValue() {
-		// TODO Auto-generated method stub
-		double pont= 0.0;
-		
-		pont +=1* (1 - diffType(this.worker,oraculo.worker));
-		pont += (1 - diffType(this.light,oraculo.light));	
-		pont += 1*(1 - diffType(this.ranged,oraculo.ranged));	
-		pont += (1 - diffType(this.heavy,oraculo.heavy));	
-		pont += (1 - diffType(this.base,oraculo.base));	
-		pont += 1*(1 - diffType(this.barrack,oraculo.barrack));	
-		pont +=1* (1 - diffType(this.saved_resource,oraculo.saved_resource));	
-		
-		return (float) (pont/7);
-	}
+	
 	@Override
 	public void Resert() {
 		// TODO Auto-generated method stub
@@ -139,4 +104,104 @@ public class CabocoDagua2 implements EvaluateGS {
 		
 	}
 
+
+
+
+	public int getWorker() {
+		return worker;
+	}
+
+
+
+
+	public void setWorker(int worker) {
+		this.worker = worker;
+	}
+
+
+
+
+	public int getLight() {
+		return light;
+	}
+
+
+
+
+	public void setLight(int light) {
+		this.light = light;
+	}
+
+
+
+
+	public int getRanged() {
+		return ranged;
+	}
+
+
+
+
+	public void setRanged(int ranged) {
+		this.ranged = ranged;
+	}
+
+
+
+
+	public int getHeavy() {
+		return heavy;
+	}
+
+
+
+
+	public void setHeavy(int heavy) {
+		this.heavy = heavy;
+	}
+
+
+
+
+	public int getBase() {
+		return base;
+	}
+
+
+
+
+	public void setBase(int base) {
+		this.base = base;
+	}
+
+
+
+
+	public int getBarrack() {
+		return barrack;
+	}
+
+
+
+
+	public void setBarrack(int barrack) {
+		this.barrack = barrack;
+	}
+
+
+
+
+	public int getSaved_resource() {
+		return saved_resource;
+	}
+
+
+
+
+	public void setSaved_resource(int saved_resource) {
+		this.saved_resource = saved_resource;
+	}
+
+	
+	
 }

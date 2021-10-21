@@ -7,7 +7,7 @@ import AIs.Interpreter;
 import CFG.Control;
 import CFG.Node;
 import LS_CFG.FactoryLS;
-import Oraculo.EstadoAcoes;
+
 import ai.abstraction.HeavyRush;
 import ai.abstraction.RangedRush;
 import ai.abstraction.WorkerRush;
@@ -51,7 +51,7 @@ public class Visualizar {
 		//System.out.print(A.);
 		AI oraculo = new HeavyRush(utt);
 		AI adv = new CoacAI(utt);
-		EstadoAcoes EAs = new EstadoAcoes(gs2,1,4000,oraculo,adv,true,true);
+		// Arrumar partida
 		n.clear(null, new FactoryLS());
 		System.out.println(n.translateIndentation(0));
 	}
