@@ -1,0 +1,24 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+parcial 0.0
+parcial 0.0
+parcial 0.0
+parcial 0.0
+parcial 0.0
+parcial 0.0
+parcial 0.0
+parcial 0.0
+parcial 0.0
+parcial 0.0
+parcial 1.0
+parcial 2.0
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at CFG.S.load(S.java:145)
+	at CFG.Control.load(Control.java:105)
+	at Tests.Leitura.testa(Leitura.java:207)
+	at Tests.Leitura.main(Leitura.java:195)

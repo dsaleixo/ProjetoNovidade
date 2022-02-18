@@ -1,0 +1,191 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+maps/DoubleGame24x24.xml novo mapas teste budget
+Busca SA
+N = 1
+Camp	0.0	0	S;Empty
+melhorou 0.5<1.0
+resultado 2.614     1.0>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 1.0>0.5 individuos = 0
+Camp	2.614	60	S;For_S;S;For_S;S;C;Attack;Closest
+melhorou 0.5<1.0
+resultado 3.209     1.0>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 1.0>0.5 individuos = 0
+Camp	3.209	68	S;For_S;S;S_S;S;For_S;S;S_S;S;C;Train;Worker;Left;20;S;C;Idle;S;For_S;S;C;Attack;Closest
+melhorou 0.5<1.0
+resultado 45.018     1.0>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 1.0>0.5 individuos = 0
+Camp	45.018	143	S;S_S;S;For_S;S;C;Idle;S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;7;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 2157.936     0.5>0.5 individuos = 1
+Camp	2157.936	200	S;S_S;S;For_S;S;C;Idle;S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;7;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+melhorou 0.5<1.0
+resultado 2778.596     1.0>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 1.0>0.5 individuos = 0
+Camp	2778.596	220	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	3240.324	1000	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	3263.315	2000	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	3324.156	3000	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	3637.683	4000	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	3733.624	5000	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	3763.288	6000	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	4259.566	7000	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	4710.418	8000	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 4821.059     0.5>0.5 individuos = 1
+Camp	4821.059	8514	S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+melhorou 0.5<0.75
+melhorou 0.75<1.0
+resultado 6347.17     1.0>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 1.0>0.5 individuos = 0
+Camp	6347.17	8596	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 8538.831     0.5>0.5 individuos = 1
+Camp	8538.831	8714	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	9064.545	9000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	10252.387	10000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	10252.401	11000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	10253.808	12000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 10591.531     0.5>0.5 individuos = 1
+Camp	10591.531	12466	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 12630.374     0.5>0.5 individuos = 1
+Camp	12630.374	12571	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 14690.318     0.5>0.5 individuos = 1
+Camp	14690.318	12674	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;5;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+melhorou 0.5<0.75
+resultado 16738.567     0.75>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 0.75>0.5 individuos = 0
+Camp	16738.567	12834	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	18682.836	13000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 18776.733     0.5>0.5 individuos = 1
+Camp	18776.733	13010	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	19764.991	14000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	20316.415	15000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	20600.833	16000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 20800.323     0.5>0.5 individuos = 1
+Camp	20800.323	16581	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 22825.867     0.5>0.5 individuos = 1
+Camp	22825.867	16749	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 24851.404     0.5>0.5 individuos = 1
+Camp	24851.404	16847	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 27057.896     0.5>0.5 individuos = 1
+Camp	27057.896	16888	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	28945.496	17000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 29105.129     0.5>0.5 individuos = 1
+Camp	29105.129	17007	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 31133.795     0.5>0.5 individuos = 1
+Camp	31133.795	17111	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 33167.451     0.5>0.5 individuos = 1
+Camp	33167.451	17361	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 35215.771     0.5>0.5 individuos = 1
+Camp	35215.771	17444	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	35473.197	18000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	35480.604	19000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	35498.446	20000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 37262.348     0.5>0.5 individuos = 1
+Camp	37262.348	20380	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	38394.093	21000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	38486.654	22000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	38519.395	23000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	38842.984	24000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	39023.966	25000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	39024.001	26000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	39210.787	27000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 39285.336     0.5>0.5 individuos = 1
+Camp	39285.336	27519	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	39663.066	28000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	39790.159	29000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 41439.125     0.5>0.5 individuos = 1
+Camp	41439.125	29227	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	42556.248	30000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 43515.094     0.5>0.5 individuos = 1
+Camp	43515.094	30112	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	45135.92	31000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	45381.215	32000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 45537.276     0.5>0.5 individuos = 1
+Camp	45537.276	32818	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	47400.202	33000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 47568.751     0.5>0.5 individuos = 1
+Camp	47568.751	33010	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 49601.247     0.5>0.5 individuos = 1
+Camp	49601.247	33377	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 51913.823     0.5>0.5 individuos = 1
+Camp	51913.823	33429	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	53416.92	34000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	53466.096	35000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	53541.663	36000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 53946.59     0.5>0.5 individuos = 1
+Camp	53946.59	36471	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 55982.839     0.5>0.5 individuos = 1
+Camp	55982.839	36543	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 58014.166     0.5>0.5 individuos = 1
+Camp	58014.166	36726	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 60038.818     0.5>0.5 individuos = 1
+Camp	60038.818	36868	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	61535.862	37000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 62061.708     0.5>0.5 individuos = 1
+Camp	62061.708	37638	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	62489.956	38000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	62828.526	39000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	63081.022	40000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	63422.929	41000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 64097.951     0.5>0.5 individuos = 1
+Camp	64097.951	41873	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	65786.965	42000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 66127.696     0.5>0.5 individuos = 1
+Camp	66127.696	42024	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 68162.953     0.5>0.5 individuos = 1
+Camp	68162.953	42178	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 70191.714     0.5>0.5 individuos = 1
+Camp	70191.714	42347	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 72218.514     0.5>0.5 individuos = 1
+Camp	72218.514	42483	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	72728.612	43000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	73065.296	44000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	73490.203	45000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	73673.859	46000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	73867.968	47000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	74080.607	48000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 74240.525     0.5>0.5 individuos = 1
+Camp	74240.525	48609	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 76269.307     0.5>0.5 individuos = 1
+Camp	76269.307	48764	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 78299.753     0.5>0.5 individuos = 1
+Camp	78299.753	48969	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	78563.433	49000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 80329.149     0.5>0.5 individuos = 1
+Camp	80329.149	49172	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 82354.439     0.5>0.5 individuos = 1
+Camp	82354.439	49232	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 84377.594     0.5>0.5 individuos = 1
+Camp	84377.594	49408	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 86410.378     0.5>0.5 individuos = 1
+Camp	86410.378	49541	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+melhorou 0.5<0.75
+Camp	87949.325	50000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Build;Base;Right;3;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+resultado 88433.432     0.75>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 0.75>0.5 individuos = 0
+Camp	88433.432	50385	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Ranged;Down;4;S;C;Build;Base;Right;20;S;C;Build;Barracks;Right;7;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Strongest;S;For_S;S;C;Harvest;4;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+melhorou 0.5<1.0
+resultado 88828.703     1.0>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 1.0>0.5 individuos = 0
+Camp	88828.703	50430	S;S_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+Camp	89422.548	51000	S;S_S;S;For_S;S;C;Attack;Strongest;S;For_S;S;S_S;S;For_S;S;If_B_then_S_else_S;B;HasUnitInOpponentRange;S;Empty;S;For_S;S;C;Train;Worker;Down;25;S;S_S;S;C;MoveToUnit;Ally;MostHealthy;S;C;MoveToUnit;Enemy;MostHealthy
+melhorou 0.5<0.75
+resultado 90974.288     0.75>0.5 individuos = 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+atulizou 0.75>0.5 individuos = 0
+Camp	90974.288	51345	S;S_S;S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Strongest;S;C;MoveAway;S;C;Harvest;4;S;For_S;S;C;Idle;S;For_S;S;C;Attack;Farthest;S;For_S;S;C;Train;Worker;Right;20
+resultado 94230.687     0.5>0.5 individuos = 1
+Camp	94230.687	51348	S;S_S;S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Strongest;S;C;MoveAway;S;C;Harvest;4;S;For_S;S;C;Idle;S;For_S;S;C;Attack;Farthest;S;For_S;S;C;Train;Worker;Right;20
+resultado 97195.432     0.5>0.5 individuos = 1
+Camp	97195.432	51356	S;S_S;S;For_S;S;S_S;S;C;Attack;Closest;S;S_S;S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Strongest;S;C;MoveAway;S;C;Harvest;4;S;For_S;S;C;Idle;S;For_S;S;C;Attack;Farthest;S;For_S;S;C;Train;Worker;Right;20
+slurmstepd: error: *** JOB 2466912 ON nc11021 CANCELLED AT 2022-02-11T00:23:52 DUE TO TIME LIMIT ***

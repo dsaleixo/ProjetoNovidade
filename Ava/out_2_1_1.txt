@@ -1,0 +1,19 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+maps/32x32/basesWorkers32x32A.xml 1280000000
+Ficticious
+atual	0.332	-0.5	S;Empty	S;S_S;S;For_S;S;C;Train;Barracks;Left;6;S;Empty
+atual	0.493	0.0	S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;9;S;C;Idle;S;Empty	S;S_S;S;For_S;S;C;Train;Barracks;Left;6;S;Empty
+atualizou	0.5	1.0	S;Empty	S;S_S;S;Empty;S;For_S;S;C;Attack;Weakest
+atualizou	1.0	1.5	S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Harvest;15	S;S_S;S;Empty;S;For_S;S;C;Attack;Weakest
+atualizou	1.0	2.0	S;For_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Harvest;15	S;S_S;S;Empty;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Build;Base;Down;10;S;C;Attack;Closest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveAway
+atualizou	2.5	2.0	S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Idle;S;C;Build;Barracks;Left;10;S;If_B_then_S_else_S;B;IsBuilder;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Harvest;15	S;S_S;S;Empty;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Build;Base;Down;10;S;C;Attack;Closest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveAway
+atualizou	3.0	2.0	S;S_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Idle;S;C;Build;Barracks;Left;10;S;If_B_then_S_else_S;B;IsBuilder;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Harvest;15;S;For_S;S;For_S;S;C;Train;Worker;Up;100	S;S_S;S;Empty;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Build;Base;Down;10;S;C;Attack;Closest;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveAway
+atualizou	4.0	3.0	S;S_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Idle;S;C;Build;Barracks;Left;10;S;If_B_then_S_else_S;B;IsBuilder;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Harvest;15;S;For_S;S;For_S;S;C;Train;Worker;Up;100	S;S_S;S;Empty;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Build;Base;Down;10;S;C;Attack;Closest;S;S_S;S;S_S;S;C;MoveAway;S;C;Train;Worker;Right;50;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveAway
+atualizou	4.5	3.5	S;S_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Idle;S;C;Build;Barracks;Left;10;S;If_B_then_S_else_S;B;IsBuilder;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Harvest;15;S;For_S;S;For_S;S;C;Train;Worker;Up;100	S;S_S;S;For_S;S;C;Harvest;9;S;S_S;S;Empty;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Build;Base;Down;10;S;C;Attack;Closest;S;S_S;S;S_S;S;C;MoveAway;S;C;Train;Worker;Right;50;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveAway
+atualizou	5.0	3.5	S;S_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Idle;S;C;Build;Barracks;Left;10;S;If_B_then_S_else_S;B;IsBuilder;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Harvest;15;S;For_S;S;For_S;S;C;Train;Worker;Up;100;S;For_S;S;C;Attack;Closest	S;S_S;S;For_S;S;C;Harvest;9;S;S_S;S;Empty;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Build;Base;Down;10;S;C;Attack;Closest;S;S_S;S;S_S;S;C;MoveAway;S;C;Train;Worker;Right;50;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveAway
+atualizou	4.0	5.0	S;S_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S_else_S;B;IsBuilder;S;C;Idle;S;C;Build;Barracks;Left;10;S;If_B_then_S_else_S;B;IsBuilder;S;C;MoveToUnit;Enemy;MostHealthy;S;C;Harvest;15;S;For_S;S;For_S;S;C;Train;Worker;Up;100;S;For_S;S;C;Attack;Closest	S;S_S;S;For_S;S;C;Harvest;2;S;S_S;S;Empty;S;For_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;S_S;S;C;Build;Base;Down;10;S;C;Attack;Closest;S;S_S;S;S_S;S;C;MoveAway;S;C;Train;Worker;Right;50;S;If_B_then_S;B;OpponentHasUnitInPlayerRange;S;C;MoveAway
+slurmstepd: error: *** JOB 27318690 ON blg7117 CANCELLED AT 2021-11-05T01:42:18 DUE TO TIME LIMIT ***

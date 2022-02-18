@@ -1,0 +1,20 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+maps/BroodWar/(4)BloodBath.scmB.xml 1280000000
+Ficticious
+atual	0.467	-0.5	S;Empty	S;S_S;S;C;Build;Base;Right;9;S;Empty
+atual	0.923	0.0	S;For_S;S;S_S;S;For_S;S;C;Harvest;6;S;S_S;S;C;Train;Ranged;EnemyDir;20;S;C;Idle	S;S_S;S;C;Build;Base;Right;9;S;Empty
+atualizou	0.5	1.0	S;Empty	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Train;Worker;Up;7;S;C;Attack;Closest
+atualizou	1.0	2.0	S;For_S;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;Up;50;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Train;Worker;Up;7;S;C;Attack;Closest
+atualizou	1.5	2.5	S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up;50;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Train;Worker;Up;7;S;C;Attack;Closest
+atualizou	1.5	3.0	S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Train;Worker;Up;50;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;Empty;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;7;S;S_S;S;C;Harvest;5;S;C;Idle;S;C;Attack;Closest
+atualizou	2.0	3.0	S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;9;S;C;Train;Worker;Up;50;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;Empty;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Up;7;S;S_S;S;C;Harvest;5;S;C;Idle;S;C;Attack;Closest
+atualizou	2.0	3.5	S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;9;S;C;Train;Worker;Up;50;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Train;Worker;Up;7;S;S_S;S;C;Harvest;5;S;C;Idle;S;C;Attack;Closest
+atualizou	4.0	3.5	S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;9;S;C;Train;Worker;Right;50;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Train;Worker;Up;7;S;S_S;S;C;Harvest;5;S;C;Idle;S;C;Attack;Closest
+atualizou	4.0	4.5	S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;9;S;C;Train;Worker;Right;50;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;7;S;S_S;S;C;Harvest;5;S;C;Idle;S;C;Attack;Closest
+atualizou	5.0	3.5	S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;9;S;C;Train;Worker;Right;50;S;For_S;S;C;Idle;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;7;S;S_S;S;C;Harvest;5;S;C;Idle;S;C;Attack;Closest
+atualizou	5.0	4.0	S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;9;S;C;Train;Worker;Right;50;S;For_S;S;C;Idle;S;For_S;S;C;Attack;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Light;8;S;S_S;S;C;Harvest;0;S;C;MoveToUnit;Ally;Farthest	S;S_S;S;S_S;S;For_S;S;S_S;S;C;Build;Barracks;Right;15;S;C;Harvest;1;S;Empty;S;For_S;S;S_S;S;C;Attack;Strongest;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;7;S;S_S;S;C;Harvest;5;S;C;Idle;S;C;Attack;Closest
+slurmstepd: error: *** JOB 27318739 ON blg5717 CANCELLED AT 2021-11-05T02:17:33 DUE TO TIME LIMIT ***

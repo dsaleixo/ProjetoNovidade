@@ -166,8 +166,11 @@ public class FictionsPlayTeste implements Search {
 				 
 				v0 = run(gs2,max,0,j0,lado1);
 				v1 = run(gs2,max,1,j1,lado0);
+				long paraou = System.currentTimeMillis()-tempo_ini;
 				System.out.println("atualizou\t"+v0+"\t"+v1+"\t"+
 						Control.salve((Node) j0)+"\t"+Control.salve((Node) j1));
+				System.out.println("Camp\t"+((paraou*1.0)/1000.0)+"\t"+
+						Control.salve((Node)j0) +"\t"+Control.salve((Node) j1));
 			}
 			
 		}

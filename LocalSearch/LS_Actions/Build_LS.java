@@ -85,16 +85,17 @@ public class Build_LS extends Build implements Node_LS,ChildC_LS  {
 	@Override
 	public int countNode() {
 		// TODO Auto-generated method stub
-		return 4;
+		return 3;
 	}
 	@Override
 	public void mutation(int node_atual, int budget) {
 		// TODO Auto-generated method stub
 		
-		if(node_atual==0)this.sample(budget,2);
-		if(node_atual==1)this.sample(budget,2);
+		if(node_atual==0)this.sample(budget);
+		if(node_atual==1)this.sample(budget,0);
 		if(node_atual==2)this.sample(budget,1);
 		if(node_atual==3)this.sample(budget,2);
+	
 		
 	}
 

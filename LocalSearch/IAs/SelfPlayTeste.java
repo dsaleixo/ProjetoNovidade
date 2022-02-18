@@ -39,6 +39,7 @@ public class SelfPlayTeste implements Search {
 	Factory f;
 	long tempo_ini;
 	
+	
 	public SelfPlayTeste(GameState gs, int max_cicle) {
 		// TODO Auto-generated constructor stub
 		UnitTypeTable utt = new UnitTypeTable();

@@ -130,10 +130,12 @@ public class Nov0 implements Novidade {
 	public void mutacao() {
 		// TODO Auto-generated method stub
 		Random r =new Random();
-		for(int i=0;i<2;i++) {
+		int b = r.nextInt(3);
+		for(int i=0;i<b+1;i++) {
 			int n = r.nextInt(7);
-			int b = r.nextInt(4);
-			if(b<3)this.v[n]= ! this.v[n];
+			
+			if( r.nextInt(2)<1)this.v[n]= true;
+			else this.v[n]= true;
 		
 		}
 		

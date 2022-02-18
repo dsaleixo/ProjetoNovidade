@@ -29,7 +29,7 @@ public class Nov1 implements Novidade {
 	public String toString() {
 	
 	
-		return this.v[0]+" "+this.v[1]+" "+this.v[2]+" "+this.v[3]+" "+this.v[4]+" "+this.v[5]+" "+this.v[6];
+		return this.v[0]+"W "+this.v[1]+"L "+this.v[2]+"R "+this.v[3]+"H "+this.v[4]+"Ba "+this.v[5]+"Br "+this.v[6]+"Re";
 	}
 	
 	 @Override
@@ -74,20 +74,22 @@ public class Nov1 implements Novidade {
 		// TODO Auto-generated method stub
 		Random r =new Random();
 		
-		int n = r.nextInt(5)+1;
+		int n = 3;
 		
 		for(int i=0;i<n;i++) {
 			int c = r.nextInt(7);
-			int valor = Math.max(1, (this.v[c]+1)/2);
+			int valor = r.nextInt(Math.max(2, this.v[c]+1))+1;
+			
 			int sinal;
-			if(r.nextInt(4)<3)sinal=1;
+			if(r.nextInt(5)<3)sinal=1;
 			else sinal=-1;
 			v[c]+=sinal*valor;
+			
 			if(v[c]<0)v[c]=0;
-			if(v[c]>19)v[c]=19;
-			if(r.nextFloat()<0.05) {
-				if(r.nextInt(2)==0)v[c]=0;
-				else v[c]=19;
+			
+			if(r.nextFloat()<0.1) {
+				if(r.nextInt(2)==0 && v[c]!=0)v[c]=0;
+				else v[c]=3;
 			}
 		}
 		
@@ -102,7 +104,7 @@ public class Nov1 implements Novidade {
 		
 		double cont=0;
 		for(int i=0;i<7;i++) {
-			cont+=1-(1.0*Math.abs( this.v[i]-aux.v[i])) /Math.max(Math.max(this.v[i],aux.v[i]),1);
+			cont+=1-((1.0*Math.abs( this.v[i]-aux.v[i])) /Math.max(Math.max(this.v[i],aux.v[i]),1));
 		}
 		
 	

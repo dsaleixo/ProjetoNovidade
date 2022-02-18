@@ -202,7 +202,7 @@ public class Campeonato {
 	
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		UnitTypeTable utt = new UnitTypeTable();
+		UnitTypeTable utt = new UnitTypeTable(2);
 		/*
 		int lado =0;
 		String path_map = getMap("7");
@@ -224,20 +224,21 @@ public class Campeonato {
 		*/
 		
 		
-		for(int i=3;i<4;i++) {
+		for(int i=3;i<4 ;i++) {
 			String path_map = getMap(""+i);
 			PhysicalGameState pgs = PhysicalGameState.load(path_map, utt);
 			GameState gs = new GameState(pgs, utt);
 			double r=0;
-			for(int j=0;j<1;j++) {
-				AI ai1 =getAdv(gs,"8" ,utt);
-				AI ai2= getAdv(gs,"10" ,utt);
-				r+=partida(gs,utt,0,16000,ai1,ai2,true);
-			}
-			for(int j=0;j<1;j++) {
+			for(int j=0;j<5;j++) {
+			
 				AI ai1 =getAdv(gs,"8" ,utt);
 				AI ai2= getAdv(gs,"10" ,utt);
 				r+=partida(gs,utt,1,16000,ai1,ai2,true);
+			}
+			for(int j=0;j<0;j++) {
+				AI ai1 =getAdv(gs,"8" ,utt);
+				AI ai2= getAdv(gs,"10" ,utt);
+				r+=partida(gs,utt,1,16000,ai1,ai2,false);
 				
 				
 			}

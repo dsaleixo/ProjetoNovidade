@@ -1,13 +1,27 @@
 package Tests;
 
+import CFG.Factory;
+import EvaluateGameState.FabicaDeNovidade;
+import EvaluateGameState.FabricaNov0;
 import EvaluateGameState.Playout;
 import EvaluateGameState.SimplePlayout;
 import IAs.Busca2Nivel;
+import IAs.CorrendoAtrasRabo;
+import IAs.CorrendoAtrasRabo2;
 import IAs.FictionsPlayTeste;
 import IAs.SABasic;
 import IAs.Search;
 import IAs.SelfPlayNovidade;
 import IAs.SelfPlayTeste;
+import IAs2.Algoritmo1;
+import IAs2.AvaliaCoac;
+import IAs2.AvaliadorPadrao;
+import IAs2.B2N;
+import IAs2.B2N2;
+import IAs2.CCBasica;
+import IAs2.CCBasicaMutacao;
+import IAs2.SA;
+
 import ai.coac.CoacAI;
 import ai.core.AI;
 import rts.GameState;
@@ -35,19 +49,27 @@ public class Teste1 {
 		PhysicalGameState pgs = PhysicalGameState.load(path_map, utt);
 		GameState gs2 = new GameState(pgs, utt);
 		
-		int test = 64000000*20;
-		System.out.println(path_map+" "+test);
+
+		System.out.println(path_map+" novo teste6");
 		
 		
 		
-		Search search =null;
+		System.out.println(path_map+" novo teste bonito2");
+		AvaliaCoac coac = new AvaliaCoac();
+		Algoritmo1 se =null;
+		FabicaDeNovidade fn = (FabicaDeNovidade) new FabricaNov0();
+		if(args[1].equals("0"))se= new Algoritmo1(new SA(coac,3500,1000,0.9,15),new AvaliadorPadrao(1));
+		if(args[1].equals("1"))se= new Algoritmo1(new SA(coac,3500,1000,0.9,15),new AvaliadorPadrao(1000));
+		if(args[1].equals("2"))se= new Algoritmo1(new CCBasica(coac,1500,1000,0.9,15, fn),new AvaliadorPadrao(1));
+		if(args[1].equals("3"))se= new Algoritmo1(new CCBasica(coac,1500,1000,0.9,15,fn),new AvaliadorPadrao(1000));
+		if(args[1].equals("4"))se= new Algoritmo1(new CCBasicaMutacao(coac,1500,1000,0.9,15,fn),new AvaliadorPadrao(1));
+		if(args[1].equals("5"))se= new Algoritmo1(new CCBasicaMutacao(coac,1500,1000,0.9,15,fn),new AvaliadorPadrao(1000));
+		if(args[1].equals("6"))se= new Algoritmo1(new B2N(coac,1500,1000,0.9,15,fn),new AvaliadorPadrao(1));
+		if(args[1].equals("7"))se= new Algoritmo1(new B2N(coac,1500,1000,0.9,15,fn),new AvaliadorPadrao(1000));
+		if(args[1].equals("8"))se= new Algoritmo1(new B2N2(coac,1500,1000,0.9,15,fn),new AvaliadorPadrao(1));
+		if(args[1].equals("9"))se= new Algoritmo1(new B2N2(coac,1500,1000,0.9,15,fn),new AvaliadorPadrao(1000));
 		
-		if(args[1].equals("0"))search = new SelfPlayTeste(gs2,max);
-		if(args[1].equals("1"))search = new SelfPlayNovidade(gs2,max);
-		if(args[1].equals("2"))search = new Busca2Nivel(gs2,max);
-		
-		
-		 search.run(gs2, max,0);
+		se.run(gs2, max);
 		
 		
 	}

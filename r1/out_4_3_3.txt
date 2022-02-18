@@ -1,0 +1,805 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+maps/DoubleGame24x24.xml novo mapas teste budget
+Busca SA
+Double Oracle
+Camp	0.0	0	S;Empty
+Melhor 0
+melhorou 0.5<0.75
+melhorou 0.75<1.0
+Melhor 1
+Camp	441.511	218	S;For_S;S;S_S;S;C;Idle;S;For_S;S;If_B_then_S;B;IsBuilder;S;C;Attack;MostHealthy
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 1 
+Melhor 1
+melhorou 0.5<1.0
+Melhor 2
+Camp	441.682	221	S;S_S;S;For_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;1;S;C;Idle;S;For_S;S;For_S;S;If_B_then_S;B;IsBuilder;S;C;Attack;MostHealthy
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 2 
+Melhor 2
+melhorou 0.5<0.75
+Melhor 2
+Camp	466.274	1000	S;S_S;S;For_S;S;If_B_then_S;B;HasUnitWithinDistanceFromOpponent;1;S;C;Idle;S;For_S;S;For_S;S;If_B_then_S;B;IsBuilder;S;C;Attack;MostHealthy
+melhorou 0.75<1.0
+Melhor 3
+Camp	523.733	1970	S;S_S;S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Farthest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Left;9;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 3 
+Melhor 3
+Melhor 3
+Camp	532.441	2000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Farthest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Left;9;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+Melhor 3
+Camp	1256.71	3000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Farthest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Left;9;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+Melhor 3
+Camp	1483.709	4000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Farthest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Left;9;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+Melhor 4
+Camp	2526.733	4946	S;S_S;S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Farthest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Left;9;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 3 
+Melhor 4
+Melhor 4
+Camp	2558.48	5000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Farthest;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;Left;9;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+melhorou 0.5<1.0
+Melhor 5
+Camp	3216.352	5456	S;S_S;S;For_S;S;S_S;S;C;Harvest;2;S;C;Attack;Weakest;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Left;9;S;For_S;S;C;MoveToUnit;Ally;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 
+Melhor 5
+Melhor 5
+Camp	4188.854	6000	S;S_S;S;For_S;S;S_S;S;C;Harvest;2;S;C;Attack;Weakest;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Left;9;S;For_S;S;C;MoveToUnit;Ally;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+Melhor 5
+Camp	4330.535	7000	S;S_S;S;For_S;S;S_S;S;C;Harvest;2;S;C;Attack;Weakest;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Left;9;S;For_S;S;C;MoveToUnit;Ally;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+Melhor 6
+Camp	5223.224	7910	S;S_S;S;For_S;S;S_S;S;C;Harvest;2;S;C;Attack;Weakest;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Left;9;S;For_S;S;C;MoveToUnit;Ally;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 
+Melhor 6
+Melhor 6
+Camp	5243.887	8000	S;S_S;S;For_S;S;S_S;S;C;Harvest;2;S;C;Attack;Weakest;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Left;9;S;For_S;S;C;MoveToUnit;Ally;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+Melhor 6
+Camp	5410.385	9000	S;S_S;S;For_S;S;S_S;S;C;Harvest;2;S;C;Attack;Weakest;S;S_S;S;For_S;S;S_S;S;For_S;S;C;Train;Worker;Left;9;S;For_S;S;C;MoveToUnit;Ally;MostHealthy;S;If_B_then_S;B;HasNumberOfUnits;Ranged;6;S;C;MoveToUnit;Enemy;LessHealthy
+melhorou 0.5<1.0
+Melhor 7
+Camp	7198.178	9761	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 7 
+Melhor 7
+melhorou 0.5<0.75
+Melhor 7
+Camp	7511.067	10000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 7
+Camp	9210.423	10806	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 8 
+Melhor 7
+Melhor 9
+Camp	11344.717	10826	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 8 
+Melhor 9
+melhorou 0.25<1.0
+Melhor 10
+Camp	11367.715	10840	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 10 
+Melhor 10
+melhorou 0.5<1.0
+Melhor 10
+Camp	11383.561	10851	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 11 
+Melhor 10
+melhorou 1.0<1.25
+Melhor 10
+Camp	11923.772	11000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+melhorou 1.25<1.75
+Melhor 10
+Camp	14887.55	11057	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 10 11 12 
+Melhor 10
+Melhor 13
+Camp	17197.183	11093	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 10 11 12 
+Melhor 13
+melhorou 1.25<2.0
+Melhor 14
+Camp	19534.523	11150	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;Strongest;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 11 12 14 
+Melhor 14
+Melhor 15
+Camp	21789.125	11219	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;Strongest;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 11 12 14 
+Melhor 15
+Melhor 11
+Camp	24088.362	11288	S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;2;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 11 12 14 
+Melhor 11
+Melhor 17
+Camp	26365.496	11342	S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;2;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 11 12 14 
+Melhor 17
+melhorou 1.5<1.75
+Melhor 17
+Camp	28727.711	11399	S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;2;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 11 12 14 18 
+Melhor 17
+Melhor 19
+Camp	31030.412	11479	S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;2;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 11 12 14 18 
+Melhor 19
+Melhor 20
+Camp	33312.003	11559	S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;2;S;S_S;S;C;Train;Worker;Right;7;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 11 12 14 18 
+Melhor 20
+melhorou 2.5<3.25
+Melhor 21
+Camp	35592.846	11659	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Right;9;S;For_S;S;C;Harvest;2;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 21 
+Melhor 21
+melhorou 0.5<0.75
+Melhor 21
+Camp	36102.695	12000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Right;9;S;For_S;S;C;Harvest;2;S;C;Attack;Strongest;S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Worker;4;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;C;MoveToUnit;Ally;Closest;S;C;Train;Worker;EnemyDir;25;S;For_S;S;C;MoveToUnit;Ally;Farthest
+melhorou 0.75<1.0
+Melhor 22
+Camp	36620.949	12178	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Build;Barracks;Right;15;S;S_S;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;EnemyDir;100;S;For_S;S;C;Idle;S;C;Attack;Strongest;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;C;Train;Ranged;Left;7;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 22 
+Melhor 22
+melhorou 0.5<0.75
+Melhor 23
+Camp	38924.168	12355	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Light;EnemyDir;1;S;C;Build;Barracks;Right;15;S;S_S;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;C;Attack;Strongest;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;C;Train;Ranged;Left;7;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 10 14 18 23 
+Melhor 23
+melhorou 2.5<3.0
+Melhor 23
+Camp	39824.504	13000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Train;Light;EnemyDir;1;S;C;Build;Barracks;Right;15;S;S_S;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;C;Attack;Strongest;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;C;Train;Ranged;Left;7;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+melhorou 3.0<3.5
+Melhor 24
+Camp	41063.71	13400	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 24 
+Melhor 24
+melhorou 1.0<1.75
+Melhor 24
+Camp	42687.308	14000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 24
+Camp	43188.58	14168	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 18 23 25 
+Melhor 24
+Melhor 24
+Camp	43694.164	15000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 24
+Camp	43780.775	16000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 24
+Camp	43803.727	17000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 24
+Camp	43882.383	18000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 26
+Camp	45314.174	18833	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 18 23 25 
+Melhor 26
+Melhor 26
+Camp	45782.219	19000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Closest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;Down;10;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+melhorou 1.75<2.5
+Melhor 27
+Camp	47432.762	19580	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 27 
+Melhor 27
+Melhor 27
+Camp	48633.036	20000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 28
+Camp	49549.847	20202	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 27 
+Melhor 28
+Melhor 29
+Camp	51673.03	20356	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 27 
+Melhor 29
+Melhor 29
+Camp	52246.126	21000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 29
+Camp	52280.735	22000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 29
+Camp	52388.944	23000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 29
+Camp	52778.803	24000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 29
+Camp	52778.812	25000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 29
+Camp	52778.822	26000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 29
+Camp	52778.884	27000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 29
+Camp	52969.236	28000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 30
+Camp	53793.463	28302	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 27 
+Melhor 30
+Melhor 30
+Camp	54944.616	29000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 31
+Camp	55918.993	29326	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Weakest;S;C;Train;Worker;Down;20;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 5 27 
+Melhor 31
+melhorou 1.0<1.5
+Melhor 32
+Camp	58106.05	29872	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 7 32 
+Melhor 32
+melhorou 1.0<1.25
+Melhor 32
+Camp	58411.693	30000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+melhorou 1.25<1.5
+Melhor 33
+Camp	60242.276	30516	S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;C;Build;Base;EnemyDir;8;S;S_S;S;C;MoveAway;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 33 
+Melhor 33
+Melhor 34
+Camp	62383.997	30790	S;S_S;S;For_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;C;Build;Base;EnemyDir;8;S;S_S;S;C;MoveAway;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 33 
+Melhor 34
+melhorou 0.5<1.0
+Melhor 35
+Camp	62649.039	30816	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 
+Melhor 35
+Melhor 36
+Camp	64681.117	30898	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 
+Melhor 36
+Melhor 36
+Camp	65345.258	31000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 36
+Camp	65606.051	32000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 36
+Camp	65872.628	33000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 36
+Camp	66082.86	34000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 36
+Camp	66325.979	35000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 36
+Camp	66676.813	36000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 37
+Camp	66711.44	36020	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 
+Melhor 37
+Melhor 37
+Camp	66766.978	37000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 37
+Camp	66770.006	38000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 37
+Camp	66898.871	39000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 37
+Camp	66906.285	40000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 37
+Camp	67024.35	41000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+melhorou 0.5<0.75
+Melhor 37
+Camp	68870.918	41395	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 38 
+Melhor 37
+melhorou 0.25<1.0
+Melhor 37
+Camp	69051.613	41489	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 
+Melhor 37
+Melhor 40
+Camp	71227.279	41909	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 
+Melhor 40
+Melhor 40
+Camp	71350.363	42000	S;S_S;S;For_S;S;S_S;S;For_S;S;If_B_then_S;B;CanHarvest;S;C;Harvest;1;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 39
+Camp	73271.274	42941	S;S_S;S;For_S;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Light;1;S;For_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;C;Attack;Closest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 
+Melhor 39
+Melhor 39
+Camp	73326.25	43000	S;S_S;S;For_S;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasNumberOfUnits;Light;1;S;For_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;C;Attack;Closest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+melhorou 1.75<2.25
+Melhor 42
+Camp	75391.918	43259	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 33 38 42 
+Melhor 42
+melhorou 2.25<2.75
+Melhor 42
+Camp	78284.152	43591	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 42
+Melhor 42
+Camp	79366.896	44000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 44
+Camp	80407.163	44243	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 44
+Melhor 44
+Camp	82027.812	45000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 45
+Camp	82514.845	45211	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Closest;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 45
+Melhor 43
+Camp	84889.516	45611	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 43
+Melhor 47
+Camp	87794.309	45991	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 47
+Melhor 47
+Camp	87806.276	46000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 48
+Camp	90903.568	46143	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 48
+Melhor 49
+Camp	93831.459	46379	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 49
+Melhor 49
+Camp	94529.092	47000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 50
+Camp	96755.7	47071	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 50
+Melhor 51
+Camp	99674.095	47523	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 51
+Melhor 52
+Camp	108432.079	47667	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 52
+Melhor 52
+Camp	109066.726	48000	S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Harvest;3;S;S_S;S;For_S;S;S_S;S;S_S;S;C;Attack;MostHealthy;S;C;MoveToUnit;Enemy;Farthest;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;For_S;S;C;Harvest;4;S;For_S;S;C;Train;Worker;EnemyDir;100;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 32
+Camp	111339.788	48343	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 38 39 43 
+Melhor 32
+melhorou 2.25<3.0
+Melhor 32
+Camp	112828.032	49000	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 54
+Camp	113522.276	49191	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 35 38 43 54 
+Melhor 54
+Melhor 54
+Camp	114690.593	50000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 54
+Camp	114708.56	51000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 54
+Camp	114740.198	52000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 54
+Camp	114740.23	53000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 54
+Camp	115062.275	54000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 55
+Camp	115722.849	54166	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 35 38 43 54 
+Melhor 55
+Melhor 55
+Camp	116982.299	55000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 56
+Camp	117983.577	55106	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 35 38 43 54 
+Melhor 56
+Melhor 57
+Camp	120200.796	55876	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 35 38 43 54 
+Melhor 57
+Melhor 57
+Camp	120481.444	56000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 58
+Camp	122543.497	56721	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 32 35 38 43 54 
+Melhor 58
+Melhor 58
+Camp	123260.68	57000	S;S_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;For_S;S;C;Idle;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+melhorou 2.75<3.0
+Melhor 59
+Camp	125023.338	57176	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 43 59 
+Melhor 59
+Melhor 59
+Camp	126168.746	58000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 60
+Camp	127292.281	58232	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 43 59 
+Melhor 60
+Melhor 60
+Camp	128098.914	59000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 61
+Camp	129529.211	59504	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 43 59 
+Melhor 61
+Melhor 61
+Camp	130981.196	60000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 62
+Camp	131772.474	60144	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 43 59 
+Melhor 62
+melhorou 2.25<2.5
+Melhor 63
+Camp	134015.192	60792	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 43 59 
+Melhor 63
+Melhor 63
+Camp	134506.458	61000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 64
+Camp	137437.617	61544	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 43 59 
+Melhor 64
+Melhor 64
+Camp	138503.826	62000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 65
+Camp	139695.847	62112	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;5;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 43 59 
+Melhor 65
+melhorou 2.5<2.75
+Melhor 66
+Camp	141957.658	62940	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 43 66 
+Melhor 66
+Melhor 66
+Camp	142122.343	63000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 67
+Camp	144236.754	63591	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 43 66 
+Melhor 67
+Melhor 67
+Camp	145379.828	64000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 68
+Camp	146505.278	64302	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 43 66 
+Melhor 68
+Melhor 68
+Camp	147174.784	65000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 69
+Camp	148814.113	65457	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 43 66 
+Melhor 69
+Melhor 70
+Camp	151174.865	65802	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 43 66 
+Melhor 70
+melhorou 1.75<2.0
+Melhor 70
+Camp	151765.317	66000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 70
+Camp	153467.699	66480	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 70
+Melhor 72
+Camp	155761.092	66956	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 72
+Melhor 72
+Camp	155895.875	67000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 72
+Camp	156796.33	68000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 72
+Camp	157532.693	69000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 73
+Camp	158056.103	69312	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 73
+Melhor 73
+Camp	160056.708	70000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 74
+Camp	160360.418	70008	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 74
+Melhor 75
+Camp	162673.0	70600	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 75
+Melhor 75
+Camp	163841.559	71000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 76
+Camp	164988.227	71292	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 76
+Melhor 76
+Camp	165234.877	72000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 77
+Camp	167335.756	72652	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 77
+Melhor 77
+Camp	168391.697	73000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 78
+Camp	169816.503	73272	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 78
+Melhor 79
+Camp	172156.761	73560	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 79
+Melhor 79
+Camp	173034.047	74000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 79
+Camp	174029.887	75000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 80
+Camp	174501.607	75168	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 80
+Melhor 80
+Camp	175427.089	76000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 80
+Camp	175462.747	77000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 80
+Camp	175530.776	78000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 80
+Camp	175746.834	79000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 81
+Camp	176854.075	79776	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 81
+Melhor 81
+Camp	177393.265	80000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 81
+Camp	178505.525	81000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 81
+Camp	178505.534	82000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 81
+Camp	178564.806	83000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 82
+Camp	179215.488	83896	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 82
+Melhor 82
+Camp	179535.145	84000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 83
+Camp	181587.639	84532	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 83
+Melhor 83
+Camp	182347.663	85000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 83
+Camp	182715.214	86000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 83
+Camp	183564.644	87000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 84
+Camp	183973.884	87008	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 84
+Melhor 85
+Camp	186349.03	87644	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 85
+Melhor 85
+Camp	187987.121	88000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 86
+Camp	188734.206	88088	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 86
+Melhor 86
+Camp	189361.273	89000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 87
+Camp	191115.14	89836	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 42 66 71 
+Melhor 87
+melhorou 2.25<2.75
+Melhor 87
+Camp	191590.248	90000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;EnemyDir;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 88
+Camp	193625.398	90372	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 88
+Melhor 89
+Camp	196188.883	90690	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 89
+Melhor 89
+Camp	197950.401	91000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 90
+Camp	198772.137	91062	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 90
+Melhor 91
+Camp	201319.734	91386	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 91
+Melhor 92
+Camp	204836.437	91638	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 92
+Melhor 93
+Camp	207398.46	91950	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 93
+Melhor 93
+Camp	207694.833	92000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 94
+Camp	209990.666	92268	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 94
+Melhor 95
+Camp	212584.317	92538	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 95
+Melhor 95
+Camp	214614.094	93000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 96
+Camp	215160.618	93006	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 96
+Melhor 97
+Camp	217719.642	93312	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 97
+Melhor 98
+Camp	220284.091	93642	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 98
+Melhor 99
+Camp	222847.293	93954	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 99
+Melhor 99
+Camp	223122.112	94000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 100
+Camp	225409.463	94212	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 100
+Melhor 101
+Camp	227993.083	94506	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 101
+Melhor 101
+Camp	229590.701	95000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 101
+Camp	229660.929	96000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 102
+Camp	230564.78	96432	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 102
+Melhor 103
+Camp	233139.926	96738	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 103
+Melhor 103
+Camp	234869.846	97000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 104
+Camp	235744.325	97050	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 104
+Melhor 105
+Camp	238356.076	97362	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 105
+Melhor 106
+Camp	240932.97	97680	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 106
+Melhor 107
+Camp	243540.539	97986	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 107
+Melhor 107
+Camp	243582.135	98000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 108
+Camp	246146.813	98328	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 108
+Melhor 109
+Camp	248733.573	98658	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 109
+Melhor 110
+Camp	251336.604	98982	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 110
+Melhor 110
+Camp	251420.696	99000	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+Melhor 111
+Camp	253975.458	99258	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 111
+Melhor 112
+Camp	256577.364	99582	S;S_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;S_S;S;C;MoveToUnit;Ally;Closest;S;S_S;S;S_S;S;S_S;S;If_B_then_S_else_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;Empty;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;S_S;S;C;Harvest;10;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;20;S;For_S;S;C;Train;Worker;Left;100;S;S_S;S;For_S;S;C;Build;Base;Down;8;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;10;S;C;MoveToUnit;Enemy;Weakest;S;Empty;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;8;S;C;Attack;LessHealthy;S;If_B_then_S;B;HaveQtdUnitsAttacking;5;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;C;MoveToUnit;Ally;Closest;S;For_S;S;C;MoveToUnit;Ally;Farthest
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Selecionado: 35 38 43 66 71 88 
+Melhor 112
+slurmstepd: error: *** JOB 2466950 ON nc20407 CANCELLED AT 2022-02-11T00:39:19 DUE TO TIME LIMIT ***

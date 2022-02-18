@@ -1,0 +1,20 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+maps/BroodWar/(4)BloodBath.scmB.xml 1280000000
+Busca2Nivel 3
+
+nov0  0W 0L 0R 0H 0Ba 0Br 0Re
+nov1  0W 0L 0R 0H 0Ba 0Br 0Re
+J0e
+j1e
+nov0 busca  1W 0L 0R 0H 0Ba 0Br 0Re
+atual	0.756	-0.5	S;S_S;S;Empty;S;Empty	S;Empty
+atual2	2.35	1.5	2.571428571428571	S;S_S;S;Empty;S;Empty	
+atual2	43.352	3.0	2.678571428571429	S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Heavy;100;S;For_S;S;S_S;S;S_S;S;C;Attack;Closest;S;C;MoveToUnit;Enemy;Farthest;S;For_S;S;C;Train;Worker;EnemyDir;4;S;S_S;S;Empty;S;Empty	
+nov1 busca  0W 0L 0R 0H 0Ba 0Br 0Re
+atual	43.551	0.0	S;Empty	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Build;Light;Right;9;S;C;Train;Light;Right;5
+atual2	44.299	1.5	3.0	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Build;Light;Right;9;S;C;Train;Light;Right;5	
+slurmstepd: error: *** JOB 27318765 ON blg6124 CANCELLED AT 2021-11-05T03:02:29 DUE TO TIME LIMIT ***

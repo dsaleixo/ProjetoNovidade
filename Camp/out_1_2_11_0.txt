@@ -1,0 +1,25 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+parcial 0.5
+parcial 1.5
+parcial 1.5
+parcial 2.5
+parcial 3.5
+parcial 4.5
+parcial 5.5
+parcial 6.5
+parcial 7.5
+parcial 8.5
+parcial 8.5
+parcial 8.5
+parcial 9.5
+parcial 10.5
+parcial 11.5
+parcial 12.5
+parcial 12.5
+parcial 12.5
+parcial 13.5
+parcial 13.5

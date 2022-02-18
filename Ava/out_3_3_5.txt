@@ -1,0 +1,326 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+maps/BroodWar/(4)BloodBath.scmB.xml 1280000000
+Busca2Nivel 3
+
+nov0  0W 0L 0R 0H 0Ba 0Br 0Re
+nov1  0W 0L 0R 0H 0Ba 0Br 0Re
+J0e
+j1e
+nov0 busca  0W 1L 0R 0H 5Ba 0Br 0Re
+atual	0.55	-0.5	S;For_S;S;C;Train;Ranged;Down;2	S;Empty
+atual2	1.672	1.5	2.142857142857143	S;For_S;S;C;Train;Ranged;Down;2	
+atual2	23.41	3.0	1.7142857142857142	S;For_S;S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Train;Worker;Down;8;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Strongest;S;C;Train;Barracks;Up;25;S;S_S;S;C;Attack;LessHealthy;S;C;MoveAway	
+nov1 busca  0W 0L 0R 0H 0Ba 0Br 0Re
+atual	283.464	0.0	S;Empty	S;S_S;S;Empty;S;For_S;S;C;Harvest;4
+atual2	283.911	1.5	3.0	S;S_S;S;Empty;S;For_S;S;C;Harvest;4	
+atual2	292.928	3.0	2.571428571428571	S;S_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;CanAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Up;3;S;Empty;S;For_S;S;C;Harvest;4	
+Resultado0 1.5 3.0
+Resultado1 1.5 3.0
+Camp	303.748	S;For_S;S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Train;Worker;Down;8;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Strongest;S;C;Train;Barracks;Up;25;S;S_S;S;C;Attack;LessHealthy;S;C;MoveAway	S;Empty
+Camp	303.748	S;For_S;S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Train;Worker;Down;8;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Strongest;S;C;Train;Barracks;Up;25;S;S_S;S;C;Attack;LessHealthy;S;C;MoveAway	S;S_S;S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;CanAttack;S;C;Attack;LessHealthy;S;C;Train;Worker;Up;3;S;Empty;S;For_S;S;C;Harvest;4
+
+nov0  0W 1L 0R 0H 5Ba 0Br 0Re
+nov1  0W 0L 0R 0H 0Ba 0Br 0Re
+J0for(Unit u){for(Unit u){u.idle() u.train(Worker,Down,8)} u.moveToUnit(Ally,Strongest) u.train(Barracks,Up,25) u.attack(LessHealthy) u.moveAway()}
+j1for(Unit u){if(u.canAttack()) then {u.attack(LessHealthy)} u.train(Worker,Up,3)} e for(Unit u){u.harvest(4)}
+nov0 busca  0W 1L 0R 0H 5Ba 0Br 0Re
+atual2	305.914	1.0	2.142857142857143	S;S_S;S;Empty;S;Empty	
+atual2	387.357	1.5	1.7142857142857142	S;S_S;S;S_S;S;Empty;S;For_S;S;S_S;S;S_S;S;C;MoveAway;S;C;Train;Worker;Down;25;S;If_B_then_S_else_S;B;CanHarvest;S;C;Attack;Farthest;S;C;Attack;MostHealthy;S;Empty	
+nov1 busca  0W 1L 0R 0H 0Ba 0Br 0Re
+atual2	628.327	1.0	2.571428571428571	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Build;Light;Right;9;S;C;Idle	
+Resultado0 2.5 1.0
+Resultado1 2.5 1.0
+
+nov0  0W 1L 0R 0H 5Ba 0Br 0Re
+nov1  0W 0L 0R 0H 0Ba 0Br 0Re
+J0for(Unit u){for(Unit u){u.idle() u.train(Worker,Down,8)} u.moveToUnit(Ally,Strongest) u.train(Barracks,Up,25) u.attack(LessHealthy) u.moveAway()}
+j1for(Unit u){if(u.canAttack()) then {u.attack(LessHealthy)} u.train(Worker,Up,3)} e for(Unit u){u.harvest(4)}
+nov0 busca  0W 1L 1R 0H 5Ba 0Br 0Re
+atual2	1000.466	1.0	1.7142857142857142	S;S_S;S;For_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;For_S;S;C;Idle	
+atual2	1008.61	1.5	1.2857142857142856	S;S_S;S;For_S;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;C;Train;Worker;Left;1;S;For_S;S;C;Idle	
+atual2	1026.114	2.0	1.2857142857142856	S;S_S;S;For_S;S;S_S;S;For_S;S;For_S;S;C;Attack;MostHealthy;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;C;Train;Worker;Left;1;S;For_S;S;C;Idle	
+atual2	1035.499	2.5	1.2857142857142856	S;S_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Attack;MostHealthy;S;C;Attack;MostHealthy;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;C;Train;Worker;Left;1;S;For_S;S;C;Idle	
+nov1 busca  0W 0L 0R 0H 0Ba 0Br 0Re
+atual2	1355.796	1.0	3.0	S;S_S;S;For_S;S;For_S;S;S_S;S;C;Idle;S;C;MoveAway;S;Empty	
+atual2	1384.172	1.5	2.571428571428571	S;S_S;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;MoveAway;S;C;Train;Worker;EnemyDir;9;S;Empty	
+Resultado0 2.5 2.0
+Resultado1 2.5 1.5
+Camp	1775.572	S;For_S;S;S_S;S;For_S;S;S_S;S;C;Idle;S;C;Train;Worker;Down;8;S;S_S;S;S_S;S;C;MoveToUnit;Ally;Strongest;S;C;Train;Barracks;Up;25;S;S_S;S;C;Attack;LessHealthy;S;C;MoveAway	S;S_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Attack;MostHealthy;S;C;Attack;MostHealthy;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;C;Train;Worker;Left;1;S;For_S;S;C;Idle
+
+nov0  0W 1L 0R 0H 5Ba 0Br 0Re
+nov1  0W 1L 1R 0H 5Ba 0Br 0Re
+J0for(Unit u){for(Unit u){u.idle() u.train(Worker,Down,8)} u.moveToUnit(Ally,Strongest) u.train(Barracks,Up,25) u.attack(LessHealthy) u.moveAway()}
+j1for(Unit u){for(Unit u){for(Unit u){u.idle() u.attack(MostHealthy) u.attack(MostHealthy)}} if(u.OpponentHasUnitThatKillsUnitInOneAttack()) then {u.moveToUnit(Ally,Farthest)} u.train(Worker,Left,1)} for(Unit u){u.idle()}
+nov0 busca  0W 1L 0R 0H 5Ba 0Br 5Re
+atual2	1779.267	0.5	1.7142857142857142	S;S_S;S;Empty;S;For_S;S;If_B_then_S;B;HasLessNumberOfUnits;Base;100;S;C;MoveToUnit;Ally;Strongest	
+atual2	1785.56	1.0	1.2857142857142856	S;S_S;S;Empty;S;For_S;S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Base;100;S;C;MoveToUnit;Ally;Strongest;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;7;S;C;Idle;S;C;Train;Worker;Up;8	
+atual2	1887.392	2.5	1.2857142857142856	S;S_S;S;S_S;S;Empty;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Attack;Weakest;S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Base;100;S;C;MoveToUnit;Ally;Strongest;S;Empty;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;7;S;C;Idle;S;C;Train;Worker;Up;8	
+nov1 busca  0W 1L 1R 0H 5Ba 0Br 0Re
+atual2	2155.975	1.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+atual2	2201.478	2.5	1.2857142857142856	S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Up;9;S;For_S;S;C;Attack;Weakest	
+Resultado0 2.0 2.5
+Resultado1 2.5 2.5
+Camp	2504.487	S;S_S;S;S_S;S;Empty;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Attack;Weakest;S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Base;100;S;C;MoveToUnit;Ally;Strongest;S;Empty;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;7;S;C;Idle;S;C;Train;Worker;Up;8	S;S_S;S;For_S;S;S_S;S;For_S;S;For_S;S;S_S;S;S_S;S;C;Idle;S;C;Attack;MostHealthy;S;C;Attack;MostHealthy;S;S_S;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;MoveToUnit;Ally;Farthest;S;C;Train;Worker;Left;1;S;For_S;S;C;Idle
+Camp	2504.487	S;S_S;S;S_S;S;Empty;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;Attack;Weakest;S;For_S;S;S_S;S;S_S;S;If_B_then_S;B;HasLessNumberOfUnits;Base;100;S;C;MoveToUnit;Ally;Strongest;S;Empty;S;If_B_then_S_else_S;B;HasNumberOfWorkersHarvesting;7;S;C;Idle;S;C;Train;Worker;Up;8	S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Up;9;S;For_S;S;C;Attack;Weakest
+
+nov0  0W 1L 0R 0H 5Ba 0Br 5Re
+nov1  0W 1L 1R 0H 5Ba 0Br 0Re
+J0e for(Unit u){u.attack(Weakest)} for(Unit u){u.attack(Weakest)} for(Unit u){if(HasLessNumberOfUnits(Base,100)) then {u.moveToUnit(Ally,Strongest)} e if(HasNumberOfWorkersHarvesting(7)) then {u.idle()} else { u.train(Worker,Up,8)}}
+j1for(Unit u){for(Unit u){u.train(Worker,Up,9)}} for(Unit u){u.attack(Weakest)}
+nov0 busca  0W 0L 0R 0H 5Ba 1Br 5Re
+atual2	2506.136	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+atual2	2510.193	0.5	1.2857142857142856	S;S_S;S;S_S;S;For_S;S;C;Train;Worker;EnemyDir;100;S;Empty;S;Empty	
+atual2	2520.353	1.5	1.2857142857142856	S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Build;Light;Down;3;S;S_S;S;C;Attack;Strongest;S;C;Harvest;7;S;C;Train;Worker;EnemyDir;100;S;Empty;S;Empty	
+atual2	2535.634	2.0	1.3440570672713528	S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;20;S;C;Build;Light;Down;3;S;S_S;S;C;Attack;Strongest;S;C;Harvest;7;S;C;Train;Worker;EnemyDir;100;S;Empty;S;Empty	
+atual2	2596.377	2.0	1.3455435641257338	S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;50;S;C;Build;Light;Down;3;S;S_S;S;C;Attack;Strongest;S;C;Harvest;7;S;C;Train;Worker;EnemyDir;100;S;Empty;S;Empty	
+atual2	3626.578	3.0	1.3128419576204386	S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Train;Ranged;EnemyDir;4;S;C;Idle;S;C;Harvest;50;S;C;Build;Light;Down;3;S;S_S;S;C;Harvest;2;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;C;Attack;Strongest;S;C;Harvest;7;S;C;Train;Worker;EnemyDir;100;S;S_S;S;C;Attack;Strongest;S;C;Idle;S;Empty;S;Empty	
+nov1 busca  0W 1L 1R 0H 5Ba 0Br 0Re
+atual2	3630.698	0.5	1.7142857142857142	S;S_S;S;For_S;S;C;Train;Heavy;Right;5;S;Empty	
+Resultado0 2.0 3.0
+Resultado1 2.0 0.5
+Camp	4943.867	S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Train;Ranged;EnemyDir;4;S;C;Idle;S;C;Harvest;50;S;C;Build;Light;Down;3;S;S_S;S;C;Harvest;2;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;C;Attack;Strongest;S;C;Harvest;7;S;C;Train;Worker;EnemyDir;100;S;S_S;S;C;Attack;Strongest;S;C;Idle;S;Empty;S;Empty	S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Up;9;S;For_S;S;C;Attack;Weakest
+Camp	4943.867	S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Train;Ranged;EnemyDir;4;S;C;Idle;S;C;Harvest;50;S;C;Build;Light;Down;3;S;S_S;S;C;Harvest;2;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;C;Attack;Strongest;S;C;Harvest;7;S;C;Train;Worker;EnemyDir;100;S;S_S;S;C;Attack;Strongest;S;C;Idle;S;Empty;S;Empty	S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;For_S;S;S_S;S;C;Train;Ranged;EnemyDir;4;S;C;Idle;S;C;Harvest;50;S;C;Build;Light;Down;3;S;S_S;S;C;Harvest;2;S;C;MoveToUnit;Enemy;Weakest;S;S_S;S;C;Attack;Strongest;S;C;Harvest;7;S;C;Train;Worker;EnemyDir;100;S;S_S;S;C;Attack;Strongest;S;C;Idle;S;Empty;S;Empty
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 1Br 7Re
+atual2	9100.972	0.0	1.7142857142857142	S;S_S;S;For_S;S;C;Harvest;7;S;Empty	
+nov1 busca  0W 0L 1R 0H 5Ba 1Br 5Re
+atual2	9840.312	0.0	1.2857142857142856	S;S_S;S;Empty;S;For_S;S;C;Train;Light;EnemyDir;8	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 10Ba 4Br 5Re
+atual2	15138.663	0.0	1.7142857142857142	S;S_S;S;Empty;S;If_B_then_S;B;HasNumberOfUnits;Worker;50;S;C;Build;Base;Up;7	
+nov1 busca  0W 0L 1R 0H 5Ba 1Br 5Re
+atual2	15875.432	0.0	1.2857142857142856	S;S_S;S;For_S;S;S_S;S;C;MoveToUnit;Ally;LessHealthy;S;C;MoveToUnit;Enemy;MostHealthy;S;Empty	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  1W 0L 0R 0H 0Ba 1Br 5Re
+atual2	21743.875	0.0	1.7142857142857142	S;S_S;S;Empty;S;For_S;S;C;Attack;Weakest	
+nov1 busca  0W 0L 0R 0H 7Ba 1Br 5Re
+atual2	22730.17	0.0	1.7142857142857142	S;S_S;S;Empty;S;For_S;S;C;MoveToUnit;Enemy;MostHealthy	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 1Br 8Re
+atual2	28184.159	0.0	1.7142857142857142	S;If_B_then_S;B;HasNumberOfUnits;Worker;1;S;C;Train;Base;Left;3	
+nov1 busca  0W 1L 0R 0H 5Ba 1Br 5Re
+atual2	29219.572	0.0	1.2857142857142856	S;S_S;S;Empty;S;For_S;S;S_S;S;C;MoveAway;S;C;Train;Light;Left;50	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  1W 0L 0R 0H 5Ba 1Br 10Re
+atual2	34853.5	0.0	1.2857142857142856	S;For_S;S;C;MoveToUnit;Enemy;Farthest	
+nov1 busca  5W 0L 0R 0H 7Ba 1Br 5Re
+atual2	35841.163	0.0	1.2857142857142856	S;S_S;S;Empty;S;For_S;S;S_S;S;C;MoveAway;S;C;Harvest;6	
+atual2	37545.193	0.5	1.4190319806083354	S;S_S;S;S_S;S;Empty;S;For_S;S;S_S;S;S_S;S;C;MoveAway;S;For_S;S;S_S;S;C;Harvest;5;S;C;Harvest;8;S;C;Harvest;6;S;For_S;S;C;Train;Worker;Up;9	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 1Br 14Re
+atual2	43712.381	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+nov1 busca  0W 0L 0R 0H 5Ba 1Br 8Re
+atual2	44745.868	0.0	1.7142857142857142	S;S_S;S;Empty;S;For_S;S;C;Attack;MostHealthy	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 1Br 9Re
+atual2	50266.054	0.0	1.7142857142857142	S;S_S;S;For_S;S;C;Idle;S;Empty	
+nov1 busca  0W 1L 0R 0H 14Ba 1Br 5Re
+atual2	51266.721	0.0	1.2857142857142856	S;For_S;S;S_S;S;C;Build;Light;EnemyDir;1;S;C;MoveToUnit;Ally;LessHealthy	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 1R 1H 0Ba 1Br 5Re
+atual2	57058.557	0.0	1.2857142857142856	S;S_S;S;Empty;S;If_B_then_S;B;HasNumberOfUnits;Heavy;20;S;C;Attack;Strongest	
+nov1 busca  0W 1L 1R 0H 5Ba 2Br 5Re
+atual2	58348.934	0.0	0.8571428571428571	S;S_S;S;Empty;S;Empty	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 7Ba 2Br 5Re
+atual2	64736.74	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+atual2	65490.624	0.5	1.2857142857142856	S;S_S;S;S_S;S;For_S;S;S_S;S;C;MoveAway;S;C;Train;Worker;Right;5;S;S_S;S;Empty;S;Empty;S;Empty	
+nov1 busca  0W 0L 0R 0H 8Ba 1Br 5Re
+atual2	66029.178	0.0	1.7142857142857142	S;S_S;S;For_S;S;C;Build;Ranged;EnemyDir;7;S;Empty	
+Resultado0 2.5 0.5
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 1Br 5Re
+atual2	73441.198	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+nov1 busca  1W 0L 0R 0H 5Ba 1Br 10Re
+atual2	74772.127	0.0	1.2857142857142856	S;For_S;S;C;MoveAway	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 10L 1R 0H 5Ba 1Br 5Re
+atual2	81315.362	0.0	0.8571428571428571	S;S_S;S;Empty;S;Empty	
+nov1 busca  0W 0L 0R 0H 5Ba 1Br 5Re
+atual2	82640.751	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 1L 0R 0H 5Ba 5Br 5Re
+atual2	89674.006	0.0	1.2857142857142856	S;S_S;S;S_S;S;For_S;S;C;Attack;Weakest;S;For_S;S;C;MoveToUnit;Enemy;Farthest;S;Empty	
+nov1 busca  5W 0L 0R 0H 10Ba 1Br 5Re
+atual2	90995.705	0.0	1.2857142857142856	S;S_S;S;For_S;S;For_S;S;C;MoveAway;S;Empty	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 2Br 5Re
+atual2	97472.776	0.0	1.7142857142857142	S;S_S;S;Empty;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;20;S;C;Idle	
+nov1 busca  0W 0L 0R 1H 5Ba 1Br 5Re
+atual2	98758.103	0.0	1.2857142857142856	S;For_S;S;S_S;S;For_S;S;C;Idle;S;For_S;S;C;Attack;LessHealthy	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 1R 0H 5Ba 0Br 5Re
+atual2	105263.758	0.0	1.7142857142857142	S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;50;S;If_B_then_S;B;OpponentHasNumberOfUnits;Barracks;4;S;C;Harvest;4;S;For_S;S;C;Attack;Strongest	
+nov1 busca  0W 0L 0R 0H 10Ba 1Br 5Re
+atual2	106597.788	0.0	1.7142857142857142	S;For_S;S;For_S;S;If_B_then_S_else_S;B;HaveQtdUnitsAttacking;8;S;For_S;S;C;Idle;S;S_S;S;C;MoveAway;S;C;Attack;Farthest	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 1L 0R 0H 5Ba 1Br 5Re
+atual2	113043.21	0.0	1.2857142857142856	S;S_S;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;100;S;For_S;S;C;Train;Ranged;Right;25;S;Empty	
+nov1 busca  0W 0L 0R 0H 0Ba 2Br 5Re
+atual2	114336.664	0.0	2.142857142857143	S;S_S;S;Empty;S;Empty	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 1H 0Ba 1Br 5Re
+atual2	120871.942	0.0	1.7142857142857142	S;S_S;S;Empty;S;For_S;S;C;Build;Base;Left;15	
+nov1 busca  0W 0L 0R 0H 0Ba 1Br 5Re
+atual2	122207.328	0.0	2.142857142857143	S;For_S;S;C;Train;Ranged;Right;9	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 2Br 7Re
+atual2	128621.873	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+nov1 busca  0W 0L 1R 0H 1Ba 1Br 5Re
+atual2	130014.878	0.0	1.2857142857142856	S;S_S;S;Empty;S;Empty	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 5R 0H 5Ba 1Br 0Re
+atual2	137381.547	0.0	1.7142857142857142	S;S_S;S;For_S;S;C;MoveAway;S;Empty	
+atual2	139708.609	1.5	0.8571428571428571	S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Build;Worker;EnemyDir;20;S;For_S;S;C;Train;Worker;EnemyDir;10;S;S_S;S;S_S;S;C;Idle;S;C;MoveToUnit;Ally;Strongest;S;Empty;S;S_S;S;C;Harvest;8;S;C;MoveToUnit;Enemy;Weakest;S;C;Idle;S;Empty	
+nov1 busca  0W 0L 0R 0H 5Ba 1Br 5Re
+atual2	139911.436	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+Resultado0 2.5 1.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 8R 0H 9Ba 1Br 5Re
+atual2	149684.191	0.0	1.2857142857142856	S;S_S;S;Empty;S;Empty	
+nov1 busca  0W 0L 5R 0H 5Ba 1Br 0Re
+atual2	151035.621	0.0	1.7142857142857142	S;S_S;S;Empty;S;For_S;S;C;Attack;Weakest	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 1Br 5Re
+atual2	158029.115	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+nov1 busca  1W 0L 0R 0H 2Ba 1Br 5Re
+atual2	159388.661	0.0	1.2857142857142856	S;S_S;S;For_S;S;C;MoveToUnit;Enemy;Closest;S;Empty	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+nov0 busca  0W 0L 0R 0H 5Ba 1Br 7Re
+atual2	166001.106	0.0	1.7142857142857142	S;S_S;S;Empty;S;Empty	
+nov1 busca  0W 0L 0R 0H 10Ba 1Br 2Re
+atual2	167309.568	0.0	1.7142857142857142	S;S_S;S;C;Build;Base;Left;100;S;Empty	
+Resultado0 2.5 0.0
+Resultado1 2.5 0.0
+
+nov0  0W 0L 0R 0H 5Ba 1Br 5Re
+nov1  0W 0L 0R 0H 5Ba 1Br 5Re
+J0for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+j1for(Unit u){for(Unit u){for(Unit u){u.train(Ranged,EnemyDir,4) u.idle()} u.harvest(50) u.build(Light,Down,3) u.harvest(2) u.moveToUnit(Enemy,Weakest)} u.attack(Strongest) u.harvest(7) u.train(Worker,EnemyDir,100) u.attack(Strongest) u.idle()} e e
+slurmstepd: error: *** JOB 27318764 ON blg4620 CANCELLED AT 2021-11-05T03:02:29 DUE TO TIME LIMIT ***

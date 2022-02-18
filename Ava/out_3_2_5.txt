@@ -1,0 +1,43 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+maps/BroodWar/(4)BloodBath.scmB.xml 1280000000
+Busca2Nivel 5
+
+nov0  0W 0L 0R 0H 0Ba 0Br 0Re
+nov1  0W 0L 0R 0H 0Ba 0Br 0Re
+J0e
+j1e
+nov0 busca  0W 1L 0R 0H 5Ba 0Br 0Re
+atual	0.663	-0.5	S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Base;2;S;C;Idle;S;For_S;S;C;MoveAway	S;Empty
+atual2	1.869	2.5	3.5714285714285716	S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Base;2;S;C;Idle;S;For_S;S;C;MoveAway	
+nov1 busca  0W 0L 1R 0H 0Ba 1Br 0Re
+atual	315.096	0.0	S;Empty	S;S_S;S;Empty;S;For_S;S;C;Train;Heavy;Right;8
+atual2	316.213	2.5	3.5714285714285716	S;S_S;S;Empty;S;For_S;S;C;Train;Heavy;Right;8	
+atual2	337.294	5.0	2.8571428571428568	S;S_S;S;Empty;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Train;Heavy;Right;8;S;S_S;S;C;Attack;LessHealthy;S;C;Idle;S;C;Harvest;50;S;S_S;S;C;Harvest;3;S;C;Train;Worker;Right;7;S;C;Train;Light;Up;10	
+Resultado0 2.5 2.5
+Resultado1 2.5 5.0
+Camp	356.759	S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Base;2;S;C;Idle;S;For_S;S;C;MoveAway	S;Empty
+Camp	356.759	S;If_B_then_S_else_S;B;OpponentHasNumberOfUnits;Base;2;S;C;Idle;S;For_S;S;C;MoveAway	S;S_S;S;Empty;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Train;Heavy;Right;8;S;S_S;S;C;Attack;LessHealthy;S;C;Idle;S;C;Harvest;50;S;S_S;S;C;Harvest;3;S;C;Train;Worker;Right;7;S;C;Train;Light;Up;10
+
+nov0  0W 1L 0R 0H 5Ba 0Br 0Re
+nov1  0W 0L 1R 0H 0Ba 1Br 0Re
+J0if(OpponentHasNumberOfUnits(Base,2)) then {u.idle()} else { for(Unit u){u.moveAway()}}
+j1e for(Unit u){u.train(Heavy,Right,8) u.attack(LessHealthy) u.idle() u.harvest(50) u.harvest(3) u.train(Worker,Right,7) u.train(Light,Up,10)}
+nov0 busca  0W 1L 1R 0H 5Ba 0Br 0Re
+atual2	358.073	2.0	2.8571428571428568	S;If_B_then_S;B;HasNumberOfWorkersHarvesting;7;S;S_S;S;S_S;S;C;Harvest;100;S;C;Idle;S;If_B_then_S;B;OpponentHasUnitThatKillsUnitInOneAttack;S;C;Build;Heavy;EnemyDir;9	
+atual2	468.087	4.5	2.142857142857143	S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Strongest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;20;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Ranged;Down;3;S;For_S;S;S_S;S;C;Idle;S;C;Train;Worker;Left;1;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveAway;S;Empty;S;C;Train;Base;EnemyDir;5;S;For_S;S;C;MoveToUnit;Enemy;Strongest;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;2;S;C;MoveAway;S;If_B_then_S_else_S;B;CanHarvest;S;C;MoveAway;S;C;Train;Base;Down;3;S;S_S;S;S_S;S;C;MoveAway;S;C;MoveAway;S;C;Attack;LessHealthy;S;C;Idle;S;C;Train;Ranged;Left;9;S;C;MoveAway	
+nov1 busca  0W 0L 1R 0H 0Ba 1Br 0Re
+Resultado0 2.0 4.5
+Resultado1 5.0 5.0
+Camp	657.761	S;S_S;S;For_S;S;S_S;S;S_S;S;For_S;S;C;Attack;Strongest;S;If_B_then_S_else_S;B;HasUnitWithinDistanceFromOpponent;20;S;C;MoveToUnit;Enemy;Strongest;S;C;Train;Ranged;Down;3;S;For_S;S;S_S;S;C;Idle;S;C;Train;Worker;Left;1;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;MoveAway;S;Empty;S;C;Train;Base;EnemyDir;5;S;For_S;S;C;MoveToUnit;Enemy;Strongest;S;If_B_then_S;B;HasNumberOfWorkersHarvesting;2;S;C;MoveAway;S;If_B_then_S_else_S;B;CanHarvest;S;C;MoveAway;S;C;Train;Base;Down;3;S;S_S;S;S_S;S;C;MoveAway;S;C;MoveAway;S;C;Attack;LessHealthy;S;C;Idle;S;C;Train;Ranged;Left;9;S;C;MoveAway	S;S_S;S;Empty;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Train;Heavy;Right;8;S;S_S;S;C;Attack;LessHealthy;S;C;Idle;S;C;Harvest;50;S;S_S;S;C;Harvest;3;S;C;Train;Worker;Right;7;S;C;Train;Light;Up;10
+
+nov0  0W 1L 1R 0H 5Ba 0Br 0Re
+nov1  0W 0L 1R 0H 0Ba 1Br 0Re
+J0for(Unit u){for(Unit u){u.attack(Strongest)} if(u.HasUnitWithinDistanceFromOpponent(20)) then {u.moveToUnit(Enemy,Strongest)} else { u.train(Ranged,Down,3)} for(Unit u){u.idle() u.train(Worker,Left,1)}} for(Unit u){u.moveAway() e u.train(Base,EnemyDir,5) for(Unit u){u.moveToUnit(Enemy,Strongest)} if(HasNumberOfWorkersHarvesting(2)) then {u.moveAway()} if(u.canHarvest()) then {u.moveAway()} else { u.train(Base,Down,3)} u.moveAway() u.moveAway() u.attack(LessHealthy) u.idle() u.train(Ranged,Left,9) u.moveAway()}
+j1e for(Unit u){u.train(Heavy,Right,8) u.attack(LessHealthy) u.idle() u.harvest(50) u.harvest(3) u.train(Worker,Right,7) u.train(Light,Up,10)}
+nov0 busca  0W 2L 1R 1H 5Ba 0Br 5Re
+atual2	659.179	2.0	1.4285714285714284	S;S_S;S;For_S;S;C;Idle;S;Empty	
+slurmstepd: error: *** JOB 27318754 ON blg6212 CANCELLED AT 2021-11-05T02:56:44 DUE TO TIME LIMIT ***

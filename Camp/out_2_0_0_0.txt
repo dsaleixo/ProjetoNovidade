@@ -1,0 +1,10 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+parcial 0.5
+parcial 1.5
+parcial 2.5
+parcial 3.5
+slurmstepd: error: *** JOB 18621133 ON cdr779 CANCELLED AT 2021-11-07T12:05:03 DUE TO TIME LIMIT ***

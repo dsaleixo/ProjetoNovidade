@@ -1,0 +1,15 @@
+Unloading StdEnv/2020
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.1
+
+maps/BroodWar/(4)BloodBath.scmB.xml 1280000000
+Ficticious
+atual	0.755	-0.5	S;S_S;S;Empty;S;For_S;S;C;Harvest;8	S;Empty
+atual	0.757	0.0	S;S_S;S;Empty;S;For_S;S;C;Harvest;8	S;S_S;S;Empty;S;For_S;S;C;Train;Ranged;Down;15
+atualizou	0.5	1.0	S;Empty	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Right;5
+atualizou	1.5	1.5	S;For_S;S;For_S;S;S_S;S;For_S;S;For_S;S;C;Train;Worker;Down;50;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Build;Base;Left;0	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Right;5
+atualizou	2.0	1.5	S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;1;S;For_S;S;C;Train;Worker;Down;50;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Build;Base;Left;0	S;S_S;S;Empty;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Right;5
+atualizou	2.0	3.0	S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;1;S;For_S;S;C;Train;Worker;Down;50;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Build;Base;Left;0	S;S_S;S;S_S;S;For_S;S;C;Harvest;1;S;Empty;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Right;5
+atualizou	3.0	3.0	S;For_S;S;For_S;S;S_S;S;For_S;S;S_S;S;C;Harvest;5;S;For_S;S;C;Train;Worker;Down;50;S;For_S;S;S_S;S;C;Attack;Weakest;S;C;Build;Base;Left;0	S;S_S;S;S_S;S;For_S;S;C;Harvest;1;S;Empty;S;For_S;S;S_S;S;C;Attack;Closest;S;C;Train;Worker;Right;5
+slurmstepd: error: *** JOB 27318743 ON blg5617 CANCELLED AT 2021-11-05T02:23:37 DUE TO TIME LIMIT ***

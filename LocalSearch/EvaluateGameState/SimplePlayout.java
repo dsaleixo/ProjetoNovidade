@@ -32,25 +32,47 @@ public class SimplePlayout implements Playout {
 		if(exibe) w = PhysicalGameStatePanel.newVisualizer(gs2,640,640,false,PhysicalGameStatePanel.COLORSCHEME_BLACK);
 		boolean itbroke=false ;
 		eval.evaluate(gs2, player);
+		long aux_time;
+		int cont_atraso=0;
 		
         do {
         	PlayerAction pa1=null;
         	try {
+        		aux_time=System.currentTimeMillis();
                 pa1 = ai1.getAction(player, gs2);
-                
+        		long paraou = System.currentTimeMillis()-aux_time;
+        		if(paraou>500) {
+        			return new Pair<>(0.0,new CabocoDagua2());
+        		}
+        		if(paraou>150) {
+        			cont_atraso+=1;
+        			if(cont_atraso>10) {
+        				return new Pair<>(0.0,new CabocoDagua2());
+        			}
+        		}
         	}catch(Exception e) {
         		itbroke=true;
+        	
         		break;
         	}
-                PlayerAction pa2 = ai2.getAction(1-player, gs2);
+        	
+        	PlayerAction pa2=null;
+        	try {
+        		
+                 pa2 = ai2.getAction(1-player, gs2);
                 
-                
-                gs2.issueSafe(pa1);
-                gs2.issueSafe(pa2);
+                ;
+        	}catch(Exception e) {
+        		itbroke=true;
+        	
+        	
+        	}
+        	  gs2.issueSafe(pa1);
+        	  if(!itbroke) gs2.issueSafe(pa2);
              
                 if(exibe) {
                 	w.repaint();
-                	Thread.sleep(20);
+                	Thread.sleep(2);
                 }
                 
                 gameover = gs2.cycle();
@@ -64,7 +86,7 @@ public class SimplePlayout implements Playout {
         } while (!gameover && (gs2.getTime() <= max_cycle)); 
     
         double r=0;
-        if(itbroke) return new Pair<>(-1.0,null);
+        if(itbroke) return new Pair<>(-1.0,new CabocoDagua2());
         else if(gs2.winner()==player)r= 1;
 		else if (gs2.winner()==-1)r= 0.5;
        

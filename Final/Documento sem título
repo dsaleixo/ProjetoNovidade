@@ -1,0 +1,25 @@
+mapa 24
+
+self Rest	5.5
+fic Rest	6.5
+buscade2niveis 5fic Rest	7.0
+buscade2niveis 3fic Rest	7.0
+buscade2niveis 1fic Rest	1.5
+
+
+mapa 32 
+
+
+Rest	1.5
+Rest	7.0
+Rest	7.0
+Rest	9.0
+Rest	6.0
+
+mapa 64
+
+Rest	6.0
+Rest	5.0
+Rest	7.5
+Rest	8.5
+Rest	2.0

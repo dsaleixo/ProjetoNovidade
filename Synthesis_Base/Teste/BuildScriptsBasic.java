@@ -44,9 +44,7 @@ import rts.units.UnitTypeTable;
 
 public class BuildScriptsBasic {
 
-	public BuildScriptsBasic() {
-		// TODO Auto-generated constructor stub
-	}
+	
 
 	
 	
