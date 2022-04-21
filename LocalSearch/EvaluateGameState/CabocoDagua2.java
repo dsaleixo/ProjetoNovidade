@@ -30,7 +30,27 @@ public class CabocoDagua2 implements EvaluateGS {
 		this.barrack=0;
 		this.saved_resource=0;
 	}
+	public CabocoDagua2(int w,int l,int r,int h, int ba, int br, int re) {
+		this.worker=w;
+		this.light=l;
+		this.ranged=r;
+		this.heavy=h;
+		this.base=ba;
+		this.barrack=br;
+		this.saved_resource=re;
+	}
 	
+	
+	public CabocoDagua2(List<Integer> list) {
+		this.worker=list.get(0);
+		this.light=list.get(1);
+		this.ranged=list.get(2);
+		this.heavy=list.get(3);
+		this.base=list.get(4);
+		this.barrack=list.get(5);
+		this.saved_resource=list.get(6);
+		
+	}
 	
 	
 	

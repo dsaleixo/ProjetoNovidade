@@ -1,5 +1,7 @@
 package LS_Condition;
 
+import java.util.List;
+
 import CFG_Condition.CanHarvest;
 import LS_CFG.Node_LS;
 
@@ -16,15 +18,16 @@ public class CanHarvest_LS extends CanHarvest implements Node_LS {
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
-		return 0;
+	;
 	}
 	
 	
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean desc) {
 		// TODO Auto-generated method stub
+		
 		
 	}
 }

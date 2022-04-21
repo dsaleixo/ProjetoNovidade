@@ -1,5 +1,7 @@
 package LS_CFG;
 
+import java.util.List;
+
 import CFG.B;
 import CFG.If_B_then_S_else_S;
 import CFG.S;
@@ -34,37 +36,32 @@ public class If_B_then_S_else_S_LS extends If_B_then_S_else_S implements Node_LS
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
 		Node_LS n1 = (Node_LS)this.getB();
 		Node_LS n2 = (Node_LS)this.getThen_S();
 		Node_LS n3 = (Node_LS)this.getElse_S();
-		return 1 + n1.countNode()+ n2.countNode() + n3.countNode();
+		list.add(this);
+		
+		n1.countNode(list);
+		n2.countNode(list);
+		n3.countNode(list);
 	}
 
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean desc) {
 		// TODO Auto-generated method stub
-		if(node_atual<1)this.sample(budget);
-		else {
-			node_atual-=1;
-			Node_LS n = (Node_LS)this.getB();
-			Node_LS n2 = (Node_LS)this.getThen_S();
-			Node_LS n3 = (Node_LS)this.getElse_S();
+		
+		if(desc) {
+			System.out.println("Mutacao \t "+this.getName());
+			System.out.println("Anterior \t"+this.translate());
+		}
+		
+		this.sample(budget);
+		
 			
-			
-			int c1 =n.countNode();
-			int c2 =n.countNode();
-			int c3 =n.countNode();
-			
-			if(c1 < node_atual) {
-				 n.mutation(node_atual, budget);
-			}else if(c1 + c2 < node_atual) {
-				n2.mutation(node_atual, budget);
-			}else  {
-				n3.mutation(node_atual, budget);
-			}
-			
+		if(desc) {
+			System.out.println("Atual \t"+this.translate());
 		}
 	}
 

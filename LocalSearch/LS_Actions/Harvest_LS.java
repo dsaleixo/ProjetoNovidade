@@ -32,14 +32,23 @@ public class Harvest_LS extends Harvest implements Node_LS,ChildC_LS  {
 	}
 	
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
-		return 1;
+		list.add(this);
 	}
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean desc) {
 		// TODO Auto-generated method stub
-		if(node_atual<1)this.sample(budget);
+		
+		if(desc) {
+			System.out.println("Mutacao \t "+this.getName());
+			System.out.println("Anterior \t"+this.translate());
+		}
+		this.sample(budget);
+		
+		if(desc) {
+			System.out.println("Atual \t"+this.translate());
+		}
 	}
 	
 }

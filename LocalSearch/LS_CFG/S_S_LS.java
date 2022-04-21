@@ -1,5 +1,6 @@
 package LS_CFG;
 
+import java.util.List;
 import java.util.Random;
 
 import CFG.S;
@@ -31,17 +32,24 @@ public class S_S_LS extends S_S implements Node_LS {
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
 		Node_LS n1 = (Node_LS)this.getLeftS();
 		Node_LS n2 = (Node_LS)this.getRightS();
-		return 1 + n1.countNode()+ n2.countNode();
+		list.add(this);
+		 n1.countNode(list);
+		 n2.countNode(list);
 	}
 
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean desc) {
 		// TODO Auto-generated method stub
-		if(node_atual<1) {
+		
+		if(desc) {
+			System.out.println("Mutacao \t S_S");
+			System.out.println("Anterior \t"+this.translate());
+		}
+		
 			Random gerador = new Random();
 			float g = gerador.nextFloat();
 			if(g<0.90) {
@@ -52,22 +60,10 @@ public class S_S_LS extends S_S implements Node_LS {
 				this.setRightS(s2);
 				this.setLeftS(s1);
 			}
-		}
-		else {
-			node_atual-=1;
-			Node_LS n = (Node_LS)this.getLeftS();
-			if(node_atual<n.countNode()) {
-				n.mutation(node_atual, budget);
+		
+			if(desc) {
+				System.out.println("Atual \t"+this.translate());
 			}
-			else {
-				Node_LS n2 = (Node_LS)this.getRightS();
-				
-				n2.mutation(node_atual, budget);
-			}
-			
-			
-			
-		}
 	}
 
 }

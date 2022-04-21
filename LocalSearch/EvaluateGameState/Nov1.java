@@ -1,8 +1,10 @@
 package EvaluateGameState;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
-public class Nov1 implements Novidade {
+public class Nov1 implements Novidade,Comparable<Nov1> {
 	int v[]= {0,0,0,0,0,0,0};
 	
 	public Nov1() {
@@ -114,7 +116,42 @@ public class Nov1 implements Novidade {
 	@Override
 	public int compareTo(Novidade n) {
 		// TODO Auto-generated method stub
+		Nov1 aux = (Nov1) n;
+		if(this.v[0]<aux.v[0])return -1;
+		if(this.v[0]>aux.v[0])return 1;
+		
+		if(this.v[1]<aux.v[1])return -1;
+		if(this.v[1]>aux.v[1])return 1;
+		
+		if(this.v[2]<aux.v[2])return -1;
+		if(this.v[2]>aux.v[2])return 1;
+		
+		if(this.v[3]<aux.v[3])return -1;
+		if(this.v[3]>aux.v[3])return 1;
+		
+		if(this.v[4]<aux.v[4])return -1;
+		if(this.v[4]>aux.v[4])return 1;
+		
+		if(this.v[5]<aux.v[5])return 1;
+		if(this.v[5]>aux.v[5])return 1;
+		
+		if(this.v[6]<aux.v[6])return -1;
+		if(this.v[6]>aux.v[6])return 1;
+		
 		return 0;
 	}
 
+	@Override
+	public int[] convertList() {
+		// TODO Auto-generated method stub
+		return this.v;
+	}
+
+	@Override
+	public int compareTo(Nov1 arg0) {
+		// TODO Auto-generated method stub
+		return this.compareTo((Novidade)arg0) ;
+	}
+
+	
 }

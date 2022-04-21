@@ -34,13 +34,22 @@ public class Is_Type_LS extends is_Type implements Node_LS {
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
-		return 1;
+	
 	}
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean desc) {
 		// TODO Auto-generated method stub
-		if(node_atual==0)this.sample(budget);
+		
+		if(desc) {
+			System.out.println("Mutacao \t "+this.getName());
+			System.out.println("Anterior \t"+this.translate());
+		}
+		this.sample(budget);
+		
+		if(desc) {
+			System.out.println("Atual \t"+this.translate());
+		}
 	}
 }

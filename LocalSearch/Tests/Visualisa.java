@@ -1,5 +1,6 @@
 package Tests;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -11,10 +12,31 @@ import CFG.Node;
 import EvaluateGameState.CabocoDagua2;
 import EvaluateGameState.Playout;
 import EvaluateGameState.SimplePlayout;
+import LS_CFG.Empty_LS;
 import LS_CFG.FactoryLS;
+import LS_CFG.S_LS;
+import MentalSeal.MentalSeal;
+import Standard.StrategyTactics;
+import ai.RandomBiasedAI;
+import ai.Rojo;
+import ai.UMSBot;
+import ai.mayari;
+import ai.UTS_Imass_2019.UTS_Imass;
 import ai.abstraction.HeavyRush;
+import ai.abstraction.RangedRush;
+import ai.abstraction.partialobservability.POLightRush;
+import ai.abstraction.partialobservability.POWorkerRush;
+import ai.asymmetric.PGS.LightPGSSCriptChoice;
+import ai.asymmetric.SSS.LightSSSmRTSScriptChoice;
 import ai.coac.CoacAI;
+import ai.competition.GRojoA3N.GuidedRojoA3N;
+import ai.competition.dropletGNS.Droplet;
+import ai.configurablescript.BasicExpandedConfigurableScript;
+import ai.configurablescript.ScriptsCreator;
 import ai.core.AI;
+import ai.evaluation.SimpleSqrtEvaluationFunction3;
+import ai.mcts.naivemcts.NaiveMCTS;
+import ai.puppet.PuppetSearchMCTS;
 import ai.synthesis.dslForScriptGenerator.DslAI;
 import ai.synthesis.dslForScriptGenerator.DSLCommandInterfaces.ICommand;
 import ai.synthesis.dslForScriptGenerator.DSLCompiler.IDSLCompiler;
@@ -98,7 +120,7 @@ public static double partida(GameState gs,UnitTypeTable utt, int player, int max
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		UnitTypeTable utt = new UnitTypeTable();
-		String path_map =getMap("8");;
+		String path_map =getMap("9");;
 		PhysicalGameState pgs = PhysicalGameState.load(path_map, utt);
 		GameState gs2 = new GameState(pgs, utt);
 		//build(Barrack,1,Up) harvest(2) train(Worker,4,Right) for(u) (build(Base,1,Left,u) train(Heavy,3,Down) train(Worker,6,Down) train(Ranged,8,Right) moveaway(Heavy,u) attack(Light,weakest,u) train(Worker,6,Right)) for(u) (if(HaveQtdEnemiesbyType(Worker,3)) then(moveaway(Ranged,u) attack(Worker,strongest,u)) if(!HaveQtdEnemiesbyType(Worker,1)) then(harvest(2,u)) else(train(Ranged,3,Down) moveaway(Worker,u) attack(Light,lessHealthy,u)) harvest(3,u) moveaway(Heavy,u)) if(!HaveUnitsStrongest(Ranged)) then(moveToUnit(Heavy,Enemy,farthest) train(Heavy,7,Left))
@@ -106,19 +128,19 @@ public static double partida(GameState gs,UnitTypeTable utt, int player, int max
 	
 		//BuilderDSLTreeSingleton.fullPreOrderPrint((iNodeDSLTree) A);
 		
-		String s2 = "S;S_S;S;For_S;S;S_S;S;S_S;S;S_S;S;S_S;S;C;Train;Worker;Up;7;S;S_S;S;C;Build;Barracks;EnemyDir;3;S;C;Train;Ranged;Left;10;S;C;Idle;S;C;Harvest;7;S;C;Attack;MostHealthy;S;Empty";
-		Node n = Control.load(s2,new FactoryLS());
-		//Node n = ScriptsFactory.monta4();
-		//System.out.print(A.);
+		
+		
+
 		//AI ai1 = new Interpreter(utt,n);
-		AI ai1 = new CoacAI(utt);
-		AI ai2 = new CoacAI(utt);
+		AI ai1 = new RangedRush(utt);
+		
+		AI ai2 =   new StrategyTactics(utt);
 		Playout playout = new SimplePlayout();
-		for(int i =0;i<10;i++) {
+		for(int i =0;i<1;i++) {
 			
-		Pair<Double,CabocoDagua2> r = playout.run(gs2, 0, 6000, ai1, ai2, true);
-	r.m_b.imprimir();
-	}
+			Pair<Double,CabocoDagua2> r = playout.run(gs2,utt, 0, 6000, ai1, ai2, true);
+	
+		}
 		//n.clear(null, new FactoryLS());
 		//System.out.println(n.translateIndentation(0));
 	}
@@ -129,4 +151,26 @@ public static double partida(GameState gs,UnitTypeTable utt, int player, int max
 	        AI aiscript = new DslAI(utt, commandsDSL, "P1", code, counterByFunction);
 	        return aiscript;
 	    }
+	  
+	  public static List<AI> decodeScripts(UnitTypeTable utt, String sScripts) {
+
+			//decompõe a tupla
+			ArrayList<Integer> iScriptsAi1 = new ArrayList<>();
+			String[] itens = sScripts.split(";");
+
+			for (String element : itens) {
+				iScriptsAi1.add(Integer.decode(element));
+			}
+
+			List<AI> scriptsAI = new ArrayList<>();
+
+			ScriptsCreator sc = new ScriptsCreator(utt, 300);
+			ArrayList<BasicExpandedConfigurableScript> scriptsCompleteSet = sc.getScriptsMixReducedSet();
+
+			iScriptsAi1.forEach((idSc) -> {
+				scriptsAI.add(scriptsCompleteSet.get(idSc));
+			});
+
+			return scriptsAI;
+		}
 }

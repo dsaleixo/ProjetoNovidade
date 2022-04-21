@@ -1,5 +1,6 @@
 package LS_CFG;
 
+import java.util.List;
 import java.util.Random;
 
 import CFG.For_S;
@@ -27,21 +28,26 @@ public class For_S_LS extends For_S implements Node_LS {
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
 		Node_LS n2 = (Node_LS)this.getChild();
-		return 1 + n2.countNode();
+		list.add(this);
+		n2.countNode(list);
 	}
 
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean desc) {
 		// TODO Auto-generated method stub
-		if(node_atual<0)this.sample(budget);
-		else {
-			node_atual-=1;
-			Node_LS n2 = (Node_LS)this.getChild();
-			
-			n2.mutation(node_atual, budget);
+		
+		if(desc) {
+			System.out.println("Mutacao \t "+this.getName());
+			System.out.println("Anterior \t"+this.translate());
+		}
+		
+		this.sample(budget);
+		
+		if(desc) {
+			System.out.println("Atual \t"+this.translate());
 		}
 	}
 

@@ -1,5 +1,6 @@
 package LS_CFG;
 
+import java.util.List;
 import java.util.Random;
 
 import CFG.B;
@@ -51,21 +52,26 @@ public class B_LS extends B implements Node_LS, NoTerminal_LS {
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
 		Node_LS n2 = (Node_LS)this.getChildB();
-		return 1 + n2.countNode();
+		list.add(this);
+		n2.countNode(list);
 	}
 
 	@Override
-	public void mutation(int node_atual, int budget) {
-		if(node_atual<1)this.sample(budget);
-		else {
-			Node_LS n2 = (Node_LS)this.getChildB();
-			node_atual-=1;
-			n2.mutation(node_atual, budget);
-		}
+	public void mutation(int node_atual, int budget,boolean desc) {
+		// TODO Auto-generated method stub
 		
+		if(desc) {
+			System.out.println("Mutacao \t "+this.getName());
+			System.out.println("Anterior \t"+this.translate());
+		}
+		this.sample(budget);
+		
+		if(desc) {
+			System.out.println("Atual \t"+this.translate());
+		}
 	}
 
 

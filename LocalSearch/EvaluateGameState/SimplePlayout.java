@@ -20,10 +20,10 @@ public class SimplePlayout implements Playout {
 
 	
 	@Override
-	public Pair<Double, CabocoDagua2> run(GameState gs, int player, int max_cycle, AI ai1, AI ai2, boolean exibe) throws Exception {
+	public Pair<Double, CabocoDagua2> run(GameState gs,UnitTypeTable utt, int player, int max_cycle, AI ai1, AI ai2, boolean exibe) throws Exception {
 		// TODO Auto-generated method stub
 		CabocoDagua2 eval = new CabocoDagua2();;
-		UnitTypeTable utt = new UnitTypeTable();
+		
 		ai1.reset(utt);
 		ai2.reset(utt);
 		GameState gs2 = gs.cloneChangingUTT(utt);
@@ -41,13 +41,15 @@ public class SimplePlayout implements Playout {
         		aux_time=System.currentTimeMillis();
                 pa1 = ai1.getAction(player, gs2);
         		long paraou = System.currentTimeMillis()-aux_time;
-        		if(paraou>500) {
-        			return new Pair<>(0.0,new CabocoDagua2());
-        		}
+        		
         		if(paraou>150) {
+        			return new Pair<>(-1.0,new CabocoDagua2());
+        		}
+        		if(paraou>100) {
+        			System.out.println("demorou " +cont_atraso );
         			cont_atraso+=1;
         			if(cont_atraso>10) {
-        				return new Pair<>(0.0,new CabocoDagua2());
+        				return new Pair<>(-1.0,new CabocoDagua2());
         			}
         		}
         	}catch(Exception e) {
@@ -64,7 +66,7 @@ public class SimplePlayout implements Playout {
                 ;
         	}catch(Exception e) {
         		itbroke=true;
-        	
+        		System.out.println(e);;
         	
         	}
         	  gs2.issueSafe(pa1);

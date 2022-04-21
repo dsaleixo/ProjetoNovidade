@@ -1,5 +1,7 @@
 package LS_CFG;
 
+import java.util.List;
+
 import CFG.B;
 import CFG.If_B_then_S;
 import CFG.S;
@@ -31,27 +33,31 @@ public class If_B_then_S_LS extends If_B_then_S implements Node_LS {
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
 		Node_LS n1 = (Node_LS)this.getB();
 		Node_LS n2 = (Node_LS)this.getS();
-		return 1 + n1.countNode()+ n2.countNode();
+		list.add(this);
+		
+		n1.countNode(list);
+		n2.countNode(list);
 	}
 
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean desc) {
 		// TODO Auto-generated method stub
-		if(node_atual<1)this.sample(budget);
-		else {
-			node_atual-=1;
-			Node_LS n = (Node_LS)this.getB();
-			int conutN = n.countNode();
-			if(conutN<node_atual) n.mutation(node_atual, budget);
-			else {
-				Node_LS n2 = (Node_LS)this.getS();
-				n2.mutation(node_atual, budget);
-			}
+		
+		if(desc) {
+			System.out.println("Mutacao \t "+this.getName());
+			System.out.println("Anterior \t"+this.translate());
 		}
+		
+		this.sample(budget);
+		
+		if(desc) {
+			System.out.println("Atual \t"+this.translate());
+		}
+		
 	}
 	
 	

@@ -42,7 +42,7 @@ public class Train_LS extends Train implements Node_LS,ChildC_LS {
 			this.setDirec(direc);
 		}
 		
-		if(ggg==3) {
+		if(ggg==2) {
 			List<String> l3 = n.Rules();
 			int g = gerador.nextInt(l3.size());
 			n.setN(l3.get(g));
@@ -57,22 +57,22 @@ public class Train_LS extends Train implements Node_LS,ChildC_LS {
 		Direction direc = new Direction();
 		N n = new N();
 		Random gerador = new Random();
-		int ggg = gerador.nextInt(1);
+		int ggg = gerador.nextInt(3);
 		
-		if(ggg==0) {
+		if(ggg==0||this.getType().getType()==null) {
 			List<String> l1 = type.Rules();
 			int g = gerador.nextInt(l1.size());
 			type.setType(l1.get(g));
 			this.setType(type);
 		}
-		if(ggg==0) {
+		if(ggg==1||this.getDirec().getDirection()==null) {
 			List<String> l2 = direc.Rules();
 			int g = gerador.nextInt(l2.size());
 			direc.setDirection(l2.get(g));
 			this.setDirec(direc);
 		}
 		
-		if(ggg==0) {
+		if(ggg==2||this.getN().getN()==null) {
 			List<String> l3 = n.Rules();
 			int g = gerador.nextInt(l3.size());
 			n.setN(l3.get(g));
@@ -81,18 +81,22 @@ public class Train_LS extends Train implements Node_LS,ChildC_LS {
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
-		return 4;
+		list.add(this);
 	}
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean desc) {
 		// TODO Auto-generated method stub
-		if(node_atual==0)this.sample(budget);
-		if(node_atual==1)this.sample(budget,0);
-		if(node_atual==2)this.sample(budget,1);
-		if(node_atual==3)this.sample(budget,2);
 		
+		if(desc) {
+			System.out.println("Mutacao \t "+this.getName());
+			System.out.println("Anterior \t"+this.translate());
+		}
+		this.sample(budget);
 		
+		if(desc) {
+			System.out.println("Atual \t"+this.translate());
+		}
 	}
 }

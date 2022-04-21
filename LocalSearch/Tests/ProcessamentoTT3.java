@@ -20,7 +20,7 @@ import rts.PlayerAction;
 import rts.units.UnitTypeTable;
 import util.Pair;
 
-public class ProcessamentoTT {
+public class ProcessamentoTT3 {
 	static int max=7000;
 	static FactoryLS f =new FactoryLS();;
 	public static Pair<Node_LS,Node_LS> ler0(String map,String ia,String teste,float limite) throws FileNotFoundException{
@@ -34,7 +34,7 @@ public class ProcessamentoTT {
 			    String line = in.nextLine();
 			    String dados[] = line.split("\t");
 			    if(dados[0].equals("Camp")) {
-			    	float tempo = Float.parseFloat(dados[1]);
+			    	float tempo = Float.parseFloat(dados[2]);
 			    	
 			    	if(tempo<limite) {
 				    	a1=dados[3];
@@ -80,27 +80,37 @@ public class ProcessamentoTT {
 public static String getMap(String s) {
 	
 		
-	if(s.equals("10")) return "maps/8x8/basesWorkers8x8A.xml";
-	if(s.equals("11")) return "maps/NoWhereToRun9x8.xml";
-	if(s.equals("12")) return "maps/16x16/basesWorkers16x16A.xml";
-	if(s.equals("13")) return "maps/24x24/basesWorkers24x24A.xml";
-	if(s.equals("14")) return "maps/DoubleGame24x24.xml";
-	if(s.equals("15")) return "maps/32x32/basesWorkers32x32A.xml";
-    if(s.equals("16")) { max =15000;;return "maps/BroodWar/(4)BloodBath.scmB.xml";}
+	if(s.equals("0")) return "maps/8x8/basesWorkers8x8A.xml";
+	if(s.equals("1")) return "maps/NoWhereToRun9x8.xml";
+	if(s.equals("2")) return "maps/16x16/basesWorkers16x16A.xml";
+	if(s.equals("3")) return "maps/24x24/basesWorkers24x24A.xml";
+	if(s.equals("4")) return "maps/DoubleGame24x24.xml";
+	if(s.equals("5")) return "maps/32x32/basesWorkers32x32A.xml";
+    if(s.equals("6")) { max =15000;;return "maps/BroodWar/(4)BloodBath.scmB.xml";}
 	
 		
 		
 		
-		if(s.equals("0")) return "./maps/16x16/TwoBasesBarracks16x16.xml";
-		if(s.equals("1")) return "maps/24x24/basesWorkers24x24A.xml";
-		if(s.equals("2")) return  "maps/32x32/basesWorkers32x32A.xml";
-	    if(s.equals("3")) { max =15000;;return "maps/BroodWar/(4)BloodBath.scmB.xml";}
+		if(s.equals("10")) return "./maps/16x16/TwoBasesBarracks16x16.xml";
+		if(s.equals("11")) return "maps/24x24/basesWorkers24x24A.xml";
+		if(s.equals("12")) return  "maps/32x32/basesWorkers32x32A.xml";
+	    if(s.equals("13")) { max =15000;;return "maps/BroodWar/(4)BloodBath.scmB.xml";}
 	   
 	    
 		return null;
 	}
 	
-	public static void main(String[] args) throws Exception {
+public static int getIntervalo(String s) {
+	if(s.equals("0")) return 2000000/20;
+	if(s.equals("1")) return 500000/20;
+	if(s.equals("2")) return 1500000/20;
+	if(s.equals("3")) return 1000000/20;
+	if(s.equals("4")) return 150000/20;
+	if(s.equals("5")) return 500000/20;
+    if(s.equals("6")) return 200000/20;
+    return 0;
+}
+public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		String map = args[0];
 		String teste = args[1];
@@ -111,11 +121,13 @@ public static String getMap(String s) {
 		PhysicalGameState pgs = PhysicalGameState.load(path_map, utt);
 		GameState gs2 = new GameState(pgs, utt);
 		int n=4;
-		String mapeia[] = {"0","1","2","3"};
-		int horas = 3600*24*Integer.parseInt(diass);
+		String mapeia[] = {"0","1","3","4"};
+		int matchs = getIntervalo(map);
+		int auy =Integer.parseInt(diass);
 		System.out.println("N "+n+" "+path_map);
-		for(int i =1;i<=12;i++) {
-			float limite=  i*2*3600+horas;
+		
+		for(int i =1;i<=4;i++) {
+			float limite=  (auy*5+i)*matchs;
 			
 			List<Pair<Node_LS,Node_LS>> list = new ArrayList<>();
 			for(int ia=0;ia<n;ia++) {

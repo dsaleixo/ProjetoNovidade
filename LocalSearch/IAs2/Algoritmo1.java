@@ -49,9 +49,10 @@ public class Algoritmo1 {
 			
 			Node_LS  c0 = sc.run(gs, max, j, ava);
 
-		
+			double r0 = ava.Avalia(gs, max, c0);
+			double r1 = ava.Avalia(gs, max, j);
 			
-			ava.update(gs, max, c0);
+			if(r0>r1)ava.update(gs, max, c0);
 			
 		}
 		

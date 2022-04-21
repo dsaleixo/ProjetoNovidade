@@ -22,6 +22,8 @@ import LS_CFG.Empty_LS;
 import LS_CFG.FactoryLS;
 import LS_CFG.Node_LS;
 import LS_CFG.S_LS;
+import TwoLevelSearch.Level1;
+import TwoLevelSearch.Level2;
 import ai.coac.CoacAI;
 import ai.core.AI;
 import rts.GameState;
@@ -46,16 +48,18 @@ public class CloneCoportamental implements Search {
 	Pair<Double,Double> best_v;
 	long tempo_ini;
 
-	int limit_imitacao=360;
-	FabicaDeNovidade fn;
-	Pair<Novidade,Novidade>  oraculo;
+	int limit_imitacao;
+	
+	Novidade  oraculo;
 	
 	Avaliador ava;
 	AvaliaCoac coac;
+	Level1 l1;
 	
 
-	public CloneCoportamental(boolean clear,Node_LS jj,double T0,double alpha,double beta,boolean cego, Pair<Novidade,Novidade>  oraculo, AvaliaCoac atual_coac,Avaliador ava,int limite_tempo) {
+	public CloneCoportamental(Level1 l1,boolean clear,Node_LS jj,double T0,double alpha,double beta,boolean cego, Novidade  oraculo, AvaliaCoac atual_coac,Avaliador ava,int limite_tempo) {
 		// TODO Auto-generated constructor stub
+		this.l1=l1;
 		this.coac = atual_coac;
 		this.f = new FactoryLS();
 		this.use_cleanr = clear;
@@ -66,7 +70,7 @@ public class CloneCoportamental implements Search {
 		this.best = jj;
 		this.ava=ava;
 		this.cego = cego;
-		this.fn = new FabricaNov1();
+	
 		this.oraculo=oraculo;
 		this.tempo_ini = System.currentTimeMillis();
 
@@ -104,7 +108,7 @@ public class CloneCoportamental implements Search {
 	
 	
 	public boolean if_best2(Pair<Double,Double> v1 ,Pair<Double,Double>  v2) {
-		if(ava.criterioParada(v2.m_a))return true;
+		
 		if( v2.m_b > v1.m_b) return true;
 		return false;
 	}
@@ -135,31 +139,34 @@ public class CloneCoportamental implements Search {
 		long paraou = System.currentTimeMillis()-Tini;
 	
 		int cont=0;
-		while( (paraou*1.0)/1000.0 <(this.limit_imitacao*0.1)&&!ava.criterioParada(v.m_a)) {
+		while( (paraou*1.0)/1000.0 <(this.limit_imitacao*0.1)) {
 			double T = this.T0/(1+cont*this.alpha);
 			Node_LS melhor_vizinho = null ;
 			Pair<Double,Double> v_vizinho = new Pair<>(-1111.0,-1111.0);
-			for(int i= 0;i<5;i++) {
+			for(int i= 0;i<20;i++) {
 				
 				Node_LS aux = (Node_LS) (atual.Clone(f));
-				
+				List<Node_LS> list =new ArrayList<>();
 				for(int ii=0;ii<1;ii++) {
-					int n = r.nextInt(aux.countNode());
 					
+					aux.countNode(list);
 					int custo = r.nextInt(9)+1;
-					aux.mutation(n, custo);
+					int no = r.nextInt(list.size());
+			
+					list.get(no).mutation(0, custo, false);
+					
 				}
-				Pair<Double,Double> v2 = ava.Avalia(gs,max_cicle,aux,oraculo);
-				//sSystem.out.println(v2.m_b+" "+aux.translate());
+				Pair<Double,Double> v2 = ava.Avalia(gs,max_cicle,aux,oraculo,l1);
+				//System.out.println("\t"+v2.m_a+" "+v2.m_b+" "+aux.translate());
 				if(if_best2(v_vizinho,v2)) {
-					if(this.use_cleanr)aux.clear(null, f);
+					if(this.use_cleanr||true)aux.clear(null, f);
 					melhor_vizinho = (Node_LS) aux.Clone(f);
 					v_vizinho=v2;
 				}
 				
 				
 				paraou = System.currentTimeMillis()-Tini;
-				if((paraou*1.0)/1000.0 >(this.limit_imitacao)*0.1|| ava.criterioParada(v_vizinho.m_a)) {
+				if((paraou*1.0)/1000.0 >(this.limit_imitacao)*0.1) {
 					
 					break;	
 				}
@@ -172,7 +179,7 @@ public class CloneCoportamental implements Search {
 				v = v_vizinho;
 				
 			}
-		//	System.out.println(v_vizinho.m_b+"   t\t"+melhor_vizinho.translate());
+			//System.out.println(v_vizinho.m_b+"   t\t"+melhor_vizinho.translate());
 			paraou = System.currentTimeMillis()-Tini;
 			
 			
@@ -185,7 +192,7 @@ public class CloneCoportamental implements Search {
 				
 				
 			}
-			if(ava.criterioParada(best_v.m_a)) {
+			if(ava.criterioParada(best_v.m_a)&&false) {
 				this.best = (Node_LS) melhor_vizinho.Clone(f);
 				this.best_v = v_vizinho;
 				long paraou2 = System.currentTimeMillis()-this.tempo_ini;
@@ -215,16 +222,19 @@ public class CloneCoportamental implements Search {
 			double T = this.T0/(1+cont*this.alpha);
 			Node_LS melhor_vizinho = null ;
 			Pair<Double,Double> v_vizinho = new Pair<>(-1.0,-1.0);
-			for(int i= 0;i<5;i++) {
+			for(int i= 0;i<20;i++) {
 				
 				Node_LS aux = (Node_LS) (atual.Clone(f));
+				List<Node_LS> list =new ArrayList<>();
 				for(int ii=0;ii<1;ii++) {
-					int n = r.nextInt(aux.countNode());
+					aux.countNode(list);
 					int custo = r.nextInt(9)+1;
-					aux.mutation(n, custo);
+					int no = r.nextInt(list.size());
+		
+					list.get(no).mutation(0, custo, false);
 				}
-				Pair<Double,Double> v2 = ava.Avalia(gs, max_cicle,aux,oraculo);
-					//System.out.println(v2.m_b+" "+aux.translate());
+				Pair<Double,Double> v2 = ava.Avalia(gs, max_cicle,aux,oraculo,l1);
+				//System.out.println("\t"+v2.m_a+" "+v2.m_b+" "+aux.translate());
 		
 				
 				if(if_best(v_vizinho,v2)) {
@@ -281,21 +291,22 @@ public class CloneCoportamental implements Search {
 		
 		
 		long paraou = System.currentTimeMillis()-this.tempo_ini;
-		this.best_v = ava.Avalia(gs, max_cicle, best,oraculo);
+		this.best_v = ava.Avalia(gs, max_cicle, best,oraculo,l1);
 		System.out.println("atual2\t"+0.0+"\t"+best_v.m_a+"\t"+best_v.m_b+"\t"+
 				Control.salve(best)+"\t");
-		Node n=null;
-		if(this.cego) {
-			n = new S_LS(new Empty_LS());
-		}else {
-			System.out.println("Imitação");
-			n=	this.bus_imitacao(gs, max_cicle);
-		}
+		
+		System.out.println("Imitação");
+		Node n=	this.bus_imitacao(gs, max_cicle);
+	
 		System.out.println("Ganha");
+		//l1.update(null, this.oraculo, this.best_v.m_a);
 		return this.bus_adv(gs, max_cicle,n);
 
 		
 	}
 
+
+
+	
 	
 }

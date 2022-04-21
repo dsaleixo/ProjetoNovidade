@@ -11,7 +11,6 @@ import LS_CFG.Empty_LS;
 import LS_CFG.FactoryLS;
 import LS_CFG.Node_LS;
 import LS_CFG.S_LS;
-import ai.mayari;
 import ai.coac.CoacAI;
 import ai.core.AI;
 import rts.GameState;

@@ -1,5 +1,6 @@
 package IAs2;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -61,10 +62,15 @@ public class SA implements Search2 {
 			for(int i= 0;i<2;i++) {
 				
 				Node_LS aux = (Node_LS) (local.Clone(f));
+				List<Node_LS> list =new ArrayList<>();
 				for(int ii=0;ii<1;ii++) {
-					int n = r.nextInt(aux.countNode());
-					int custo = r.nextInt(7)+3;
-					aux.mutation(n, custo);
+					
+					aux.countNode(list);
+					int custo = r.nextInt(9)+1;
+					int no = r.nextInt(list.size());
+			
+					list.get(no).mutation(0, custo, false);
+					
 				}
 				double v2 = ava.Avalia(gs, max, aux);
 				//System.out.println(v2.m_b+" "+aux.translate());

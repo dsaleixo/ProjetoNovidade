@@ -20,6 +20,7 @@ import LS_CFG.Empty_LS;
 import LS_CFG.FactoryLS;
 import LS_CFG.Node_LS;
 import LS_CFG.S_LS;
+import TwoLevelSearch.Level1;
 import ai.core.AI;
 import ai.synthesis.grammar.dslTree.interfacesDSL.iDSL;
 import rts.GameState;
@@ -60,13 +61,7 @@ public class FCS implements Avaliador {
 		payoff.add(new ArrayList<>());
 	}
 
-	@Override
-	public Pair<Double, Double> Avalia(GameState gs, int max, Node_LS n, Pair<Novidade, Novidade> oraculo)
-			throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	
 	@Override
 	public double Avalia(GameState gs, int max, Node_LS n) throws Exception {
 		// TODO Auto-generated method stub
@@ -76,8 +71,8 @@ public class FCS implements Avaliador {
 		
 		for(int i =0;i<this.adv_atual.size();i++) {
 		
-			double r0 = playout.run(gs, 0, max, ai, adv_atual.get(i), false).m_a;
-			double r1 = playout.run(gs, 1, max, ai, adv_atual.get(i), false).m_a;	
+			double r0 = playout.run(gs,utt, 0, max, ai, adv_atual.get(i), false).m_a;
+			double r1 = playout.run(gs,utt, 1, max, ai, adv_atual.get(i), false).m_a;	
 			if(r0+r1>=0) {
 				this.budget+=1;
 			}
@@ -85,7 +80,7 @@ public class FCS implements Avaliador {
 			
 			if(r0+r1>1)this.payoff.get(i).add(1);
 			else this.payoff.get(i).add(0);
-			this.budget+=1;
+			
 			long paraou = System.currentTimeMillis()-this.tempo_ini;
 			if(this.budget%1000==0) {
 				System.out.println("Camp\t"+((paraou*1.0)/1000.0)+"\t"+this.budget+"\t"+
@@ -130,6 +125,7 @@ public class FCS implements Avaliador {
         long paraou = System.currentTimeMillis()-this.tempo_ini;
 		
 		Node_LS camp= (Node_LS) n.Clone(f);
+		double r0 =Avalia(gs,max,this.individuos.get(this.individuos.size()-1));
 		double r =Avalia(gs,max,camp);
 		camp.clear(null, f);
 		
@@ -145,9 +141,11 @@ public class FCS implements Avaliador {
         	System.out.print(o+" ");
         }
         System.out.println("");
+        if(r0<r) {
         System.out.println("Camp\t"+((paraou*1.0)/1000.0)+"\t"+this.budget+"\t"
         +Control.salve((Node)camp) );
         novos_individuos.add(camp);
+        }
         this.individuos = novos_individuos;
         adv_atual.clear();
         
@@ -254,6 +252,12 @@ public class FCS implements Avaliador {
 	public boolean criterioParada(double d) {
 		// TODO Auto-generated method stub
 		return d > this.individuos.size()-0.1;
+	}
+
+	@Override
+	public Pair<Double, Double> Avalia(GameState gs, int max, Node_LS n, Novidade oraculo, Level1 l1) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

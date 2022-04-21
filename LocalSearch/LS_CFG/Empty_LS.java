@@ -1,5 +1,7 @@
 package LS_CFG;
 
+import java.util.List;
+
 import CFG.Empty;
 
 public class Empty_LS extends Empty implements Node_LS {
@@ -15,13 +17,13 @@ public class Empty_LS extends Empty implements Node_LS {
 	}
 
 	@Override
-	public int countNode() {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
-		return 0;
+		
 	}
 
 	@Override
-	public void mutation(int node_atual, int budget) {
+	public void mutation(int node_atual, int budget,boolean describe) {
 		// TODO Auto-generated method stub
 		
 	}

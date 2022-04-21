@@ -1,5 +1,7 @@
 package LS_Actions;
 
+import java.util.List;
+
 import CFG_Actions.MoveAway;
 import LS_CFG.ChildC_LS;
 import LS_CFG.Node_LS;
@@ -17,13 +19,21 @@ public class MoveAway_LS extends MoveAway implements Node_LS,ChildC_LS  {
 	}
 
 	@Override
-	public int countNode() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-	@Override
-	public void mutation(int node_atual, int budget) {
+	public void countNode(List<Node_LS> list) {
 		// TODO Auto-generated method stub
 		
+	}
+	public void mutation(int node_atual, int budget,boolean desc) {
+		// TODO Auto-generated method stub
+		
+		if(desc) {
+			System.out.println("Mutacao \t "+this.getName());
+			System.out.println("Anterior \t"+this.translate());
+		}
+		this.sample(budget);
+		
+		if(desc) {
+			System.out.println("Atual \t"+this.translate());
+		}
 	}
 }
